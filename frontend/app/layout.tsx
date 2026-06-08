@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Proeza",
-  description: "Plataforma de análise de dados da Câmara dos Deputados",
+  title: "Dogma",
+  description: "Deputados Ordenados por Gastos",
 };
 
 export default function RootLayout({

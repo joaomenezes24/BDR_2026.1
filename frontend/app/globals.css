@@ -52,11 +52,11 @@ body {
   width: 100%;
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .header-content {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 
   display: flex;
@@ -71,7 +71,7 @@ body {
 }
 
 .header-text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #1f4e79;
 }
 
@@ -164,6 +164,13 @@ body {
 .footer-section {
   flex: 1;
   min-width: 250px;
+}
+
+.footer-section img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+
 }
 
 .footer-section h3,

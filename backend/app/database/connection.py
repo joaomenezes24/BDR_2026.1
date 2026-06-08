@@ -1,11 +1,11 @@
-from sqlalchemy import create_engine
-from dotenv import load_dotenv
-import os
+import sqlite3
+from pathlib import Path
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+DB_PATH = BASE_DIR / "../dados/camara.db"
 
-DATABASE_URL="sqlite:///dados/camara.db"
 
-#DATABASE_URL = os.getenv("DATABASE_URL")
-
-engine = create_engine(DATABASE_URL)
+def get_connection():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn

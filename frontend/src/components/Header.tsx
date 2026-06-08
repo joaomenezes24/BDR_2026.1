@@ -3,15 +3,15 @@ export default function Header() {
     <header className="header">
       <div className="header-content">
         <img
-          src="/logo.png"
-          alt="Logo Proeza"
+          src="/Dogma.png"
+          alt="Logo Dogma"
           className="header-logo"
         />
 
         <div className="header-text">
-          <h1>Proeza</h1>
+          <h1>Dogma</h1>
 
-          <h2>Uma solução em Banco de Dados Relacionais</h2>
+          <h2>Deputados Ordenados por Gastos - Metric Analytics</h2>
 
           <p>
             Plataforma dedicada à análise de dados públicos da Câmara dos
