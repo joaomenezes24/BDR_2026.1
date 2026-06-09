@@ -1,5 +1,6 @@
 from app.database.connection import get_connection
 from app.database.queries import (
+    LISTAR_DEPUTADOS_QUERY,
     DEPUTADO_PERFIL_QUERY,
     DEPUTADO_DESPESAS_QUERY
 )
@@ -7,6 +8,55 @@ from app.database.queries import (
 
 class DeputadosService:
 
+    @staticmethod
+    def listar_deputados(
+        partido=None,
+        uf=None,
+        sexo=None
+    ):
+
+        conn = get_connection()
+
+        try:
+            query = """
+            SELECT
+                deputado_id,
+                ultimostatus_nome AS nome,
+                siglapartido,
+                siglauf,
+                sexo
+            FROM Deputados
+            WHERE 1=1
+            """
+
+            params = []
+
+            if partido:
+                query += " AND siglapartido = ?"
+                params.append(partido)
+
+            if uf:
+                query += " AND siglauf = ?"
+                params.append(uf)
+
+            if sexo:
+                query += " AND sexo = ?"
+                params.append(sexo)
+
+            query += " ORDER BY nome"
+
+            cursor = conn.cursor()
+
+            cursor.execute(query, params)
+
+            rows = cursor.fetchall()
+
+            return [dict(row) for row in rows]
+
+        finally:
+            conn.close()
+
+            
     @staticmethod
     def get_perfil(deputado_id: int):
 
@@ -65,3 +115,11 @@ class DeputadosService:
 
         finally:
             conn.close()
+    
+    @staticmethod
+    def buscar_deputado(deputado_id: int):
+        return DeputadosService.get_perfil(deputado_id)
+
+    @staticmethod
+    def gastos_deputado(deputado_id: int):
+        return DeputadosService.get_despesas(deputado_id)

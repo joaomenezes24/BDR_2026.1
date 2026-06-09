@@ -1,9 +1,4 @@
-from fastapi import APIRouter, HTTPException
-
-from app.schemas.deputados import (
-    DeputadoPerfilResponse,
-    DeputadoDespesaResponse
-)
+from fastapi import APIRouter
 
 from app.services.deputados_service import DeputadosService
 
@@ -13,26 +8,28 @@ router = APIRouter(
 )
 
 
-@router.get(
-    "/{deputado_id}",
-    response_model=DeputadoPerfilResponse
-)
-def get_perfil(deputado_id: int):
-
-    deputado = DeputadosService.get_perfil(deputado_id)
-
-    if deputado is None:
-        raise HTTPException(
-            status_code=404,
-            detail="Deputado não encontrado"
-        )
-
-    return deputado
+@router.get("")
+def deputados(
+    partido: str | None = None,
+    uf: str | None = None,
+    sexo: str | None = None
+):
+    return DeputadosService.listar_deputados(
+        partido,
+        uf,
+        sexo
+    )
 
 
-@router.get(
-    "/{deputado_id}/despesas",
-    response_model=list[DeputadoDespesaResponse]
-)
-def get_despesas(deputado_id: int):
-    return DeputadosService.get_despesas(deputado_id)
+@router.get("/{id_deputado}")
+def deputado(id_deputado: int):
+    return DeputadosService.buscar_deputado(
+        id_deputado
+    )
+
+
+@router.get("/{id_deputado}/despesas")
+def despesas(id_deputado: int):
+    return DeputadosService.gastos_deputado(
+        id_deputado
+    )

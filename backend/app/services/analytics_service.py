@@ -77,49 +77,49 @@ class AnalyticsService:
         finally:
             conn.close()
 
-@staticmethod
-def get_escolaridade_gastos():
+    @staticmethod
+    def get_escolaridade_gastos():
 
-    conn = get_connection()
+        conn = get_connection()
 
-    try:
-        cursor = conn.cursor()
+        try:
+            cursor = conn.cursor()
 
-        cursor.execute(ESCOLARIDADE_GASTOS_QUERY)
+            cursor.execute(ESCOLARIDADE_GASTOS_QUERY)
 
-        rows = cursor.fetchall()
+            rows = cursor.fetchall()
 
-        return [
-            {
-                "escolaridade": row["escolaridade"],
-                "media_gasto": row["media_gasto"],
-                "quantidade_deputados": row["quantidade_deputados"]
-            }
-            for row in rows
-        ]
+            return [
+                {
+                    "escolaridade": row["escolaridade"],
+                    "media_gasto": row["media_gasto"],
+                    "quantidade_deputados": row["quantidade_deputados"]
+                }
+                for row in rows
+            ]
 
-    finally:
-        conn.close()
+        finally:
+            conn.close()
 
-@staticmethod
-def get_wordcloud():
+    @staticmethod
+    def get_wordcloud():
 
-    conn = get_connection()
+        conn = get_connection()
 
-    try:
-        cursor = conn.cursor()
+        try:
+            cursor = conn.cursor()
 
-        cursor.execute(WORDCLOUD_QUERY)
+            cursor.execute(WORDCLOUD_QUERY)
 
-        rows = cursor.fetchall()
+            rows = cursor.fetchall()
 
-        return [
-            {
-                "text": row["text"],
-                "value": row["value"]
-            }
-            for row in rows
-        ]
+            return [
+                {
+                    "text": row["text"],
+                    "value": row["value"]
+                }
+                for row in rows
+            ]
 
-    finally:
-        conn.close()
+        finally:
+            conn.close()

@@ -1,11 +1,5 @@
 from pydantic import BaseModel
 
-
-class EscolaridadeResponse(BaseModel):
-    escolaridade: str | None = None
-    qtd_total: int
-
-
 class DeputadoPerfilResponse(BaseModel):
     deputado_id: int
     nome: str

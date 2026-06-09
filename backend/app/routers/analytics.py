@@ -1,17 +1,15 @@
 from typing import List
-
 from fastapi import APIRouter
 
+from app.services.analytics_service import AnalyticsService
 from app.schemas.analytics import (
     OverviewResponse,
-    TemaResponse
+    TemaResponse,
+    EscolaridadeResponse,
+    EscolaridadeGastosResponse,
+    WordCloudResponse
 )
 
-from app.services.analytics_service import AnalyticsService
-
-from app.schemas.deputados import EscolaridadeResponse
-from app.schemas.analytics import EscolaridadeGastosResponse
-from app.schemas.analytics import WordCloudResponse
 router = APIRouter(
     prefix="/analytics",
     tags=["Analytics"]

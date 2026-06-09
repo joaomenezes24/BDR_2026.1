@@ -14,6 +14,10 @@ class TemaResponse(BaseModel):
     ano_minimo: int | None = None
     ano_maximo: int | None = None
 
+class EscolaridadeResponse(BaseModel):
+    escolaridade: str | None = None
+    qtd_total: int
+
 class EscolaridadeGastosResponse(BaseModel):
     escolaridade: str
     media_gasto: float
