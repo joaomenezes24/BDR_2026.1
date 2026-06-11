@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from app.routers.analytics import router as analytics_router
 from app.routers.gastos import router as gastos_router
 from app.routers.deputados import router as deputados_router
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI(
     title="BDR Analytics API",
@@ -12,6 +13,12 @@ app = FastAPI(
 app.include_router(analytics_router)
 app.include_router(gastos_router)
 app.include_router(deputados_router)
+
+app.mount(
+    "/",
+    StaticFiles(directory="static", html=True),
+    name="static"
+)
 
 @app.get("/")
 def root():

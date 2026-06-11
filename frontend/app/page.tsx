@@ -7,13 +7,9 @@ export default function Home() {
     <>
       <Header />
 
-      <div style={{ display: "flex" }}>
-        <Sidebar />
-
         <main style={{ flex: 1, padding: "2rem" }}>
           {/* Analytics aqui */}
         </main>
-      </div>
 
       <Footer />
     </>
