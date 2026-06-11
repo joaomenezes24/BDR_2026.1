@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Proeza",
+  title: "Deputados Ordenados por Gastos",
   description: "Plataforma de análise de dados da Câmara dos Deputados",
 };
 

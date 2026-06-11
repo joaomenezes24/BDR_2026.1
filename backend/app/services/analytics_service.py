@@ -1,99 +1,125 @@
-import pandas as pd
+from app.database.connection import get_connection
+from app.database.queries import (
+    OVERVIEW_QUERY,
+    TEMAS_QUERY,
+    ESCOLARIDADE_QUERY,
+    ESCOLARIDADE_GASTOS_QUERY,
+    WORDCLOUD_QUERY
+)
 
-from app.database.connection import engine
+class AnalyticsService:
 
+    @staticmethod
+    def get_overview():
+        conn = get_connection()
 
-def get_dashboard():
-    with engine.connect() as conn:
+        try:
+            cursor = conn.cursor()
+            cursor.execute(OVERVIEW_QUERY)
 
-        deputados = pd.read_sql(
-            "SELECT COUNT(*) AS total FROM Deputados",
-            conn
-        )
+            row = cursor.fetchone()
 
-        partidos = pd.read_sql(
-            """
-            SELECT COUNT(DISTINCT siglapartido) AS total
-            FROM Deputados
-            """,
-            conn
-        )
+            return {
+                "total_deputados": row["total_deputados"],
+                "total_despesas": row["total_despesas"],
+                "total_proposicoes": row["total_proposicoes"],
+                "total_votacoes": row["total_votacoes"]
+            }
 
-        proposicoes = pd.read_sql(
-            """
-            SELECT COUNT(*) AS total
-            FROM Proposicoes
-            """,
-            conn
-        )
+        finally:
+            conn.close()
 
-        despesas = pd.read_sql(
-            """
-            SELECT COALESCE(SUM(vlrliquido),0) AS total
-            FROM Despesas
-            """,
-            conn
-        )
+    @staticmethod
+    def get_temas():
 
-        return {
-            "deputados": int(deputados.iloc[0]["total"]),
-            "partidos": int(partidos.iloc[0]["total"]),
-            "proposicoes": int(proposicoes.iloc[0]["total"]),
-            "gastos": float(despesas.iloc[0]["total"])
-        }
+        conn = get_connection()
 
-def get_ranking_gastos():
+        try:
+            cursor = conn.cursor()
 
-    sql = """
-    SELECT
-        d.ultimostatus_nome AS deputado,
-        d.siglapartido AS partido,
-        d.siglaUF AS uf,
-        ROUND(SUM(dp.vlrliquido),2) AS total_gasto
-    FROM Despesas dp
-    JOIN Deputados d
-        ON CAST(dp.idecadastro AS INTEGER)
-        =
-        CAST(d.deputado_id AS INTEGER)
-    GROUP BY dp.idecadastro
-    ORDER BY total_gasto DESC
-    LIMIT 20
-    """
+            cursor.execute(TEMAS_QUERY)
 
-    with engine.connect() as conn:
-        df = pd.read_sql(sql, conn)
+            rows = cursor.fetchall()
 
-    return df.to_dict(orient="records")
+            return [
+                {
+                    "tema": row["tema"],
+                    "qtd_total": row["qtd_total"],
+                    "ano_minimo": row["ano_minimo"],
+                    "ano_maximo": row["ano_maximo"]
+                }
+                for row in rows
+            ]
 
-def get_temas():
+        finally:
+            conn.close()
 
-    sql = """
-    SELECT
-        tema,
-        COUNT(*) AS quantidade
-    FROM ProposicoesTemas
-    GROUP BY tema
-    ORDER BY quantidade DESC
-    """
+    @staticmethod
+    def get_escolaridade():
 
-    with engine.connect() as conn:
-        df = pd.read_sql(sql, conn)
+        conn = get_connection()
 
-    return df.to_dict(orient="records")
+        try:
+            cursor = conn.cursor()
 
-def get_escolaridade():
+            cursor.execute(ESCOLARIDADE_QUERY)
 
-    sql = """
-    SELECT
-        escolaridade,
-        COUNT(*) AS quantidade
-    FROM Deputados
-    GROUP BY escolaridade
-    ORDER BY quantidade DESC
-    """
+            rows = cursor.fetchall()
 
-    with engine.connect() as conn:
-        df = pd.read_sql(sql, conn)
+            return [
+                {
+                    "escolaridade": row["escolaridade"],
+                    "qtd_total": row["qtd_total"]
+                }
+                for row in rows
+            ]
 
-    return df.to_dict(orient="records")
+        finally:
+            conn.close()
 
+    @staticmethod
+    def get_escolaridade_gastos():
+
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(ESCOLARIDADE_GASTOS_QUERY)
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "escolaridade": row["escolaridade"],
+                    "media_gasto": row["media_gasto"],
+                    "quantidade_deputados": row["quantidade_deputados"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
+
+    @staticmethod
+    def get_wordcloud():
+
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(WORDCLOUD_QUERY)
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "text": row["text"],
+                    "value": row["value"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
