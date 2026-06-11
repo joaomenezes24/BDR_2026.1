@@ -1,14 +1,8 @@
-from fastapi import APIRouter
+from app.services.gastos_service import GastosService
 
-from app.services.analytics_service import (
-    get_dashboard
-)
+def ranking_gastos():
+    return GastosService.get_ranking_gastos()
 
-router = APIRouter(
-    prefix="/dashboard",
-    tags=["Dashboard"]
-)
 
-@router.get("")
-def dashboard():
-    return get_dashboard()
+def gastos_por_categoria():
+    return GastosService.get_gastos_por_categoria()

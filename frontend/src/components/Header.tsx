@@ -18,7 +18,7 @@ export default function Header({ isExpanded, onToggle }: HeaderProps) {
         />
 
         <div className="header-text">
-          <h1>Proeza</h1>
+          <h2>Deputados Ordenados por Gastos</h2>
 
           {isExpanded && (
             <>

@@ -1,26 +1,18 @@
-from fastapi import APIRouter
-
-from app.services.analytics_service import (
-    get_ranking_gastos,
-    get_temas,
-    get_escolaridade
-)
-
-router = APIRouter(
-    prefix="/analytics",
-    tags=["Analytics"]
-)
-
-@router.get("/gastos")
-def gastos():
-    return get_ranking_gastos()
+from app.services.analytics_service import AnalyticsService
 
 
-@router.get("/temas")
+def overview():
+    return AnalyticsService.get_overview()
+
+
 def temas():
-    return get_temas()
+    return AnalyticsService.get_temas()
 
-
-@router.get("/escolaridade")
 def escolaridade():
-    return get_escolaridade()
+    return AnalyticsService.get_escolaridade()
+
+def escolaridade_gastos():
+    return AnalyticsService.get_escolaridade_gastos()
+
+def wordcloud():
+    return AnalyticsService.get_wordcloud()
