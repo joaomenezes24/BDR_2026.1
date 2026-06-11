@@ -48,7 +48,47 @@ body {
   padding: 2rem;
 }
 
+.header-toggle {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.875rem;
+  z-index: 10;
+}
+
 .header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.header.expanded {
+  padding: 3rem 2rem;
+}
+
+.header.compact {
+  padding: 1rem 2rem;
+}
+
+.header.compact .header-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.header.compact .header-text h1 {
+  font-size: 1.5rem;
+}
+
+.header.compact .header-text h2,
+.header.compact .header-text p {
+  display: none;
   width: 100%;
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
@@ -132,14 +172,35 @@ body {
 
 .sidebar li {
   margin-bottom: 1rem;
-  color: #374151;
-  cursor: pointer;
-
-  transition: color 0.2s;
+  list-style: none;
 }
 
-.sidebar li:hover {
+.tab-button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: #374151;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.2s;
+
+  text-align: left;
+}
+
+.tab-button:hover {
+  background: #f3f4f6;
   color: #1f4e79;
+  border-color: #1f4e79;
+}
+
+.tab-button.active {
+  background: #1f4e79;
+  color: #ffffff;
+  border-color: #1f4e79;
+  font-weight: 600;
 }
 
 .footer {

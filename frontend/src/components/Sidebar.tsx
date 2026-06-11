@@ -2,8 +2,20 @@
 
 import { useState } from "react";
 
-export default function Sidebar() {
+interface SidebarProps {
+  onTabChange?: (tab: string) => void;
+}
+
+const tabs = ["Deputados", "Perfil Parlamentar"];
+
+export default function Sidebar({ onTabChange }: SidebarProps) {
   const [open, setOpen] = useState(true);
+  const [activeTab, setActiveTab] = useState(tabs[0]);
+
+  const handleTabClick = (tab: string) => {
+    setActiveTab(tab);
+    onTabChange?.(tab);
+  };
 
   return (
     <aside className={`sidebar ${open ? "open" : "closed"}`}>
@@ -19,7 +31,16 @@ export default function Sidebar() {
           <h3>Glossário</h3>
 
           <ul>
-            <li>Deputados</li>
+            {tabs.map((tab) => (
+              <li key={tab}>
+                <button
+                  className={`tab-button ${activeTab === tab ? "active" : ""}`}
+                  onClick={() => handleTabClick(tab)}
+                >
+                  {tab}
+                </button>
+              </li>
+            ))}
           </ul>
         </>
       )}
