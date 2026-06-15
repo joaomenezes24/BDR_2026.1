@@ -4,7 +4,8 @@ export default function Footer() {
       <div className="footer-content">
 
         <div className="footer-section">
-          <h3>Proeza</h3>
+          <h3>DOGMA </h3>
+          <h3>Deputados Ordenados por Gastos - Metric Analytics</h3>
 
           <p>
             Plataforma para análise e visualização de dados públicos da
@@ -18,6 +19,7 @@ export default function Footer() {
           <ul>
             <li>Next.js</li>
             <li>FastAPI</li>
+            <li>SQLite</li>
           </ul>
         </div>
 

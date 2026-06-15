@@ -1,26 +1,8 @@
-# BDR_2026.1
+# DOGMA - Deputados Ordenados Por Gastos - Metric Analytics
 
-Aplicação web de análise de dados da Câmara dos Deputados desenvolvida para a disciplina de Banco de Dados Relacionais.
+Aplicação web de análise de dados da Câmara dos Deputados desenvolvida para a disciplina de Banco de Dados Relacionais, 2026.1.
 
 O projeto utiliza um banco SQLite previamente gerado a partir dos dados públicos da Câmara dos Deputados e disponibiliza consultas analíticas por meio de uma API REST desenvolvida com FastAPI, consumida por uma interface web em Next.js.
-
-## Estrutura do Projeto
-
-```text
-BDR_2026.1/
-│
-├── backend/
-│   ├── app/
-│   ├── requirements.txt
-│   └── ...
-│
-├── frontend/
-│   ├── package.json
-│   └── ...
-│
-└── dados/
-    └── camara.db
-```
 
 ## Pré-requisitos
 
