@@ -1,34 +1,71 @@
 "use client";
 
 import { useState } from "react";
+
 import Header from "@/src/components/Header";
 import Sidebar from "@/src/components/Sidebar";
 import Footer from "@/src/components/Footer";
-import { Deputados, PerfilParlamentar } from "@/src/components/tabs";
+
+import Dashboard from "@/src/components/dashboard/Dashboard";
+
+import {
+  Deputados,
+  PerfilParlamentar
+} from "@/src/tabs";
 
 const tabComponents: Record<string, React.ComponentType> = {
-  "Deputados": Deputados,
+  Deputados,
   "Perfil Parlamentar": PerfilParlamentar,
 };
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState("Deputados");
-  const [headerExpanded, setHeaderExpanded] = useState(true);
-  const TabComponent = tabComponents[activeTab];
+
+  const [section, setSection] =
+    useState("dashboard");
+  const [isExpanded, setIsExpanded] =
+    useState(false);
 
   return (
-    <>
-      <Header isExpanded={headerExpanded} onToggle={() => setHeaderExpanded(!headerExpanded)} />
 
-      <div style={{ display: "flex" }}>
-        <Sidebar onTabChange={setActiveTab} />
+    <div className="page-container">
 
-        <main style={{ flex: 1, padding: "2rem" }}>
-          {TabComponent && <TabComponent />}
+      <Header
+        isExpanded={isExpanded}
+        onToggle={() =>
+          setIsExpanded((prev) => !prev)
+        }
+      />
+
+      <div className="main-layout">
+
+        <Sidebar
+          section={section}
+          setSection={setSection}
+        />
+
+        <main className="content-area">
+
+          {section === "dashboard" && (
+            <Dashboard />
+          )}
+
+          {section !== "dashboard" &&
+            tabComponents[section] &&
+            (() => {
+              const Component =
+                tabComponents[section];
+
+              return <Component />;
+            })()
+          }
+
         </main>
+
       </div>
 
       <Footer />
-    </>
+
+    </div>
+
   );
 }

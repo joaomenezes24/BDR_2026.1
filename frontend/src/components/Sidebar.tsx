@@ -1,49 +1,44 @@
-"use client";
+type Props = {
+  section: string;
+  setSection: (section: string) => void;
+};
 
-import { useState } from "react";
-
-interface SidebarProps {
-  onTabChange?: (tab: string) => void;
-}
-
-const tabs = ["Deputados", "Perfil Parlamentar"];
-
-export default function Sidebar({ onTabChange }: SidebarProps) {
-  const [open, setOpen] = useState(true);
-  const [activeTab, setActiveTab] = useState(tabs[0]);
-
-  const handleTabClick = (tab: string) => {
-    setActiveTab(tab);
-    onTabChange?.(tab);
-  };
+export default function Sidebar({
+  section,
+  setSection
+}: Props) {
 
   return (
-    <aside className={`sidebar ${open ? "open" : "closed"}`}>
+
+    <aside
+      style={{
+        width: "240px",
+        background: "#1f2937",
+        color: "white",
+        padding: "1rem"
+      }}
+    >
+
+      <h2>BDR 2026.1</h2>
+
       <button
-        className="toggle-button"
-        onClick={() => setOpen(!open)}
+        onClick={() => setSection("dashboard")}
       >
-        {open ? "◀" : "▶"}
+        Dashboard
       </button>
 
-      {open && (
-        <>
-          <h3>Glossário</h3>
+      <button
+        onClick={() => setSection("gastos")}
+      >
+        Gastos
+      </button>
 
-          <ul>
-            {tabs.map((tab) => (
-              <li key={tab}>
-                <button
-                  className={`tab-button ${activeTab === tab ? "active" : ""}`}
-                  onClick={() => handleTabClick(tab)}
-                >
-                  {tab}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
+      <button
+        onClick={() => setSection("deputados")}
+      >
+        Deputados
+      </button>
+
     </aside>
   );
 }
