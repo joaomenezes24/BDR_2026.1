@@ -1,0 +1,4106 @@
+[
+  {
+    "deputado":"Pompeo de Mattos",
+    "partido":"PDT",
+    "uf":"RS",
+    "total_gasto":2160927.3900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Albuquerque",
+    "partido":"REPUBLICANOS",
+    "uf":"RR",
+    "total_gasto":2067196.3799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vinicius Gurgel",
+    "partido":"PL",
+    "uf":"AP",
+    "total_gasto":2002973.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gabriel Mota",
+    "partido":"UNIÃO",
+    "uf":"RR",
+    "total_gasto":1991150.28,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Coronel Ulysses",
+    "partido":"UNIÃO",
+    "uf":"AC",
+    "total_gasto":1984600.8100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"General Girão",
+    "partido":"PL",
+    "uf":"RN",
+    "total_gasto":1983001.0900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"João Maia",
+    "partido":"PP",
+    "uf":"RN",
+    "total_gasto":1982642.48,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Silvia Cristina",
+    "partido":"PP",
+    "uf":"RO",
+    "total_gasto":1975018.5900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Veras",
+    "partido":"PT",
+    "uf":"PE",
+    "total_gasto":1974100.25,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zé Haroldo Cathedral",
+    "partido":"UNIÃO",
+    "uf":"RR",
+    "total_gasto":1959712.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Helena Lima",
+    "partido":"PSD",
+    "uf":"RR",
+    "total_gasto":1947809.3999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bibo Nunes",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":1945004.3200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Flávio Nogueira",
+    "partido":"PT",
+    "uf":"PI",
+    "total_gasto":1941768.23,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Átila Lins",
+    "partido":"PSD",
+    "uf":"AM",
+    "total_gasto":1941426.25,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Nicoletti",
+    "partido":"PL",
+    "uf":"RR",
+    "total_gasto":1932441.77,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Westphalen",
+    "partido":"PP",
+    "uf":"RS",
+    "total_gasto":1927909.21,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"André Ferreira",
+    "partido":"PL",
+    "uf":"PE",
+    "total_gasto":1914553.23,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Cristiane Lopes",
+    "partido":"PODE",
+    "uf":"RO",
+    "total_gasto":1914194.54,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Defensor Stélio Dener",
+    "partido":"UNIÃO",
+    "uf":"RR",
+    "total_gasto":1910414.03,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Meire Serafim",
+    "partido":"UNIÃO",
+    "uf":"AC",
+    "total_gasto":1904160.6000000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Geraldo Resende",
+    "partido":"UNIÃO",
+    "uf":"MS",
+    "total_gasto":1899208.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Éder Mauro",
+    "partido":"PL",
+    "uf":"PA",
+    "total_gasto":1898018.8700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Cleber Verde",
+    "partido":"MDB",
+    "uf":"MA",
+    "total_gasto":1897974.1899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Franciane Bayer",
+    "partido":"REPUBLICANOS",
+    "uf":"RS",
+    "total_gasto":1884853.45,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Fernando Máximo",
+    "partido":"PL",
+    "uf":"RO",
+    "total_gasto":1884112.4399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Merlong Solano",
+    "partido":"PT",
+    "uf":"PI",
+    "total_gasto":1880983.1499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lucio Mosquini",
+    "partido":"PL",
+    "uf":"RO",
+    "total_gasto":1878434.3899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Natália Bonavides",
+    "partido":"PT",
+    "uf":"RN",
+    "total_gasto":1877663.8500000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Moses Rodrigues",
+    "partido":"UNIÃO",
+    "uf":"CE",
+    "total_gasto":1865084.27,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Cabo Gilberto Silva",
+    "partido":"PL",
+    "uf":"PB",
+    "total_gasto":1864661.3,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Afonso Motta",
+    "partido":"PDT",
+    "uf":"RS",
+    "total_gasto":1861852.8999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sidney Leite",
+    "partido":"PSD",
+    "uf":"AM",
+    "total_gasto":1861396.48,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniel Almeida",
+    "partido":"PCdoB",
+    "uf":"BA",
+    "total_gasto":1860644.73,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Domingos Neto",
+    "partido":"PSD",
+    "uf":"CE",
+    "total_gasto":1859115.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luizianne Lins",
+    "partido":"REDE",
+    "uf":"CE",
+    "total_gasto":1853074.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcos Aurélio Sampaio",
+    "partido":"MDB",
+    "uf":"PI",
+    "total_gasto":1852505.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lucas Ramos",
+    "partido":"PSB",
+    "uf":"PE",
+    "total_gasto":1851033.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Waldemar Oliveira",
+    "partido":"AVANTE",
+    "uf":"PE",
+    "total_gasto":1848401.6200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Beto Pereira",
+    "partido":"REPUBLICANOS",
+    "uf":"MS",
+    "total_gasto":1847835.8799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Josenildo",
+    "partido":"PDT",
+    "uf":"AP",
+    "total_gasto":1847128.6499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Hugo Motta",
+    "partido":"REPUBLICANOS",
+    "uf":"PB",
+    "total_gasto":1847052.3600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Olival Marques",
+    "partido":"PODE",
+    "uf":"PA",
+    "total_gasto":1846388.6599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rodolfo Nogueira",
+    "partido":"PL",
+    "uf":"MS",
+    "total_gasto":1846178.54,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Heitor Schuch",
+    "partido":"PSD",
+    "uf":"RS",
+    "total_gasto":1844477.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bohn Gass",
+    "partido":"PT",
+    "uf":"RS",
+    "total_gasto":1844195.9199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Coronel Chrisóstomo",
+    "partido":"PL",
+    "uf":"RO",
+    "total_gasto":1843928.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Antônia Lúcia",
+    "partido":"MDB",
+    "uf":"AC",
+    "total_gasto":1841879.1799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Francisco",
+    "partido":"PT",
+    "uf":"PI",
+    "total_gasto":1837778.53,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Adail Filho",
+    "partido":"MDB",
+    "uf":"AM",
+    "total_gasto":1837560.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dagoberto Nogueira",
+    "partido":"PP",
+    "uf":"MS",
+    "total_gasto":1833095.8799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Márcio Jerry",
+    "partido":"PCdoB",
+    "uf":"MA",
+    "total_gasto":1832325.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Afonso Hamm",
+    "partido":"PP",
+    "uf":"RS",
+    "total_gasto":1828321.1499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Maria do Rosário",
+    "partido":"PT",
+    "uf":"RS",
+    "total_gasto":1827885.24,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zezinho Barbary",
+    "partido":"PP",
+    "uf":"AC",
+    "total_gasto":1826847.6699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gabriel Nunes",
+    "partido":"PSD",
+    "uf":"BA",
+    "total_gasto":1824413.6699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luciano Amaral",
+    "partido":"PSD",
+    "uf":"AL",
+    "total_gasto":1822401.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eduardo da Fonte",
+    "partido":"PP",
+    "uf":"PE",
+    "total_gasto":1821030.9299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Acácio Favacho",
+    "partido":"MDB",
+    "uf":"AP",
+    "total_gasto":1819277.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Augusto Coutinho",
+    "partido":"REPUBLICANOS",
+    "uf":"PE",
+    "total_gasto":1819114.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Giovani Cherini",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":1818969.3799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Keniston Braga",
+    "partido":"MDB",
+    "uf":"PA",
+    "total_gasto":1817944.25,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Joseildo Ramos",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":1816448.26,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Murilo Galdino",
+    "partido":"REPUBLICANOS",
+    "uf":"PB",
+    "total_gasto":1816328.76,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Danilo Forte",
+    "partido":"PP",
+    "uf":"CE",
+    "total_gasto":1810901.6299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eduardo Velloso",
+    "partido":"SOLIDARIEDADE",
+    "uf":"AC",
+    "total_gasto":1809556.5,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Capitão Augusto",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1809461.1299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alceu Moreira",
+    "partido":"MDB",
+    "uf":"RS",
+    "total_gasto":1808948.0,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vermelho",
+    "partido":"PL",
+    "uf":"PR",
+    "total_gasto":1808821.6899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Couto",
+    "partido":"PT",
+    "uf":"PB",
+    "total_gasto":1805806.25,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zé Trovão",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":1805222.5900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Denise Pessôa",
+    "partido":"PT",
+    "uf":"RS",
+    "total_gasto":1801769.01,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Coronel Meira",
+    "partido":"PL",
+    "uf":"PE",
+    "total_gasto":1799586.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pastor Diniz",
+    "partido":"UNIÃO",
+    "uf":"RR",
+    "total_gasto":1799152.8899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Antonio Andrade",
+    "partido":"PSDB",
+    "uf":"TO",
+    "total_gasto":1797615.05,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Henderson Pinto",
+    "partido":"UNIÃO",
+    "uf":"PA",
+    "total_gasto":1796792.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Osmar Terra",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":1793838.48,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegada Katarina",
+    "partido":"PSD",
+    "uf":"SE",
+    "total_gasto":1788423.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Gastão",
+    "partido":"PSD",
+    "uf":"CE",
+    "total_gasto":1786557.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Litro",
+    "partido":"UNIÃO",
+    "uf":"PR",
+    "total_gasto":1785951.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Diego Garcia",
+    "partido":"UNIÃO",
+    "uf":"PR",
+    "total_gasto":1783326.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rubens Pereira Júnior",
+    "partido":"PT",
+    "uf":"MA",
+    "total_gasto":1777447.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Duda Ramos",
+    "partido":"PODE",
+    "uf":"RR",
+    "total_gasto":1776660.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Lucas Fernandes",
+    "partido":"UNIÃO",
+    "uf":"MA",
+    "total_gasto":1776190.77,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Socorro Neri",
+    "partido":"PP",
+    "uf":"AC",
+    "total_gasto":1773995.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Wilson Santiago",
+    "partido":"REPUBLICANOS",
+    "uf":"PB",
+    "total_gasto":1773796.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ruy Carneiro",
+    "partido":"PODE",
+    "uf":"PB",
+    "total_gasto":1772279.6899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alexandre Guimarães",
+    "partido":"MDB",
+    "uf":"TO",
+    "total_gasto":1771654.1200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Wellington Roberto",
+    "partido":"PSD",
+    "uf":"PB",
+    "total_gasto":1771547.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marx Beltrão",
+    "partido":"UNIÃO",
+    "uf":"AL",
+    "total_gasto":1768869.74,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dilvanda Faro",
+    "partido":"PT",
+    "uf":"PA",
+    "total_gasto":1768834.02,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daiana Santos",
+    "partido":"PCdoB",
+    "uf":"RS",
+    "total_gasto":1768628.2,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eunício Oliveira",
+    "partido":"MDB",
+    "uf":"CE",
+    "total_gasto":1768508.46,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Carlos Busato",
+    "partido":"UNIÃO",
+    "uf":"RS",
+    "total_gasto":1767648.5800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Benes Leocádio",
+    "partido":"UNIÃO",
+    "uf":"RN",
+    "total_gasto":1767637.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vander Loubet",
+    "partido":"PT",
+    "uf":"MS",
+    "total_gasto":1767389.8100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Toninho Wandscheer",
+    "partido":"PP",
+    "uf":"PR",
+    "total_gasto":1765287.5600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bacelar",
+    "partido":"PV",
+    "uf":"BA",
+    "total_gasto":1761497.9199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Thiago Flores",
+    "partido":"UNIÃO",
+    "uf":"RO",
+    "total_gasto":1761459.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Roberto Duarte",
+    "partido":"REPUBLICANOS",
+    "uf":"AC",
+    "total_gasto":1759606.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Jaziel",
+    "partido":"PL",
+    "uf":"CE",
+    "total_gasto":1757423.23,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Camila Jara",
+    "partido":"PT",
+    "uf":"MS",
+    "total_gasto":1757261.98,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dorinaldo Malafaia",
+    "partido":"PDT",
+    "uf":"AP",
+    "total_gasto":1752225.1299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sanderson",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":1751832.95,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Antônio Doido",
+    "partido":"MDB",
+    "uf":"PA",
+    "total_gasto":1751187.6000000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Cezinha de Madureira",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1748987.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniela Reinehr",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":1746169.23,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniel Trzeciak",
+    "partido":"PSDB",
+    "uf":"RS",
+    "total_gasto":1745487.73,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Tabata Amaral",
+    "partido":"PSB",
+    "uf":"SP",
+    "total_gasto":1744591.74,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Aliel Machado",
+    "partido":"PV",
+    "uf":"PR",
+    "total_gasto":1744344.0700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Maurício Carvalho",
+    "partido":"UNIÃO",
+    "uf":"RO",
+    "total_gasto":1741529.8899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lula da Fonte",
+    "partido":"PP",
+    "uf":"PE",
+    "total_gasto":1739360.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Raimundo Costa",
+    "partido":"PSD",
+    "uf":"BA",
+    "total_gasto":1737975.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Antonio Brito",
+    "partido":"PSD",
+    "uf":"BA",
+    "total_gasto":1737210.3,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Renilce Nicodemos",
+    "partido":"MDB",
+    "uf":"PA",
+    "total_gasto":1733789.6599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jadyel Alencar",
+    "partido":"REPUBLICANOS",
+    "uf":"PI",
+    "total_gasto":1732766.1399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Airton Faleiro",
+    "partido":"PT",
+    "uf":"PA",
+    "total_gasto":1732152.5,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eriberto Medeiros",
+    "partido":"PSB",
+    "uf":"PE",
+    "total_gasto":1731508.0900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Arthur Oliveira Maia",
+    "partido":"UNIÃO",
+    "uf":"BA",
+    "total_gasto":1730954.3400000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"José Medeiros",
+    "partido":"PL",
+    "uf":"MT",
+    "total_gasto":1730377.52,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Neto Carletto",
+    "partido":"AVANTE",
+    "uf":"BA",
+    "total_gasto":1729854.1000000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lídice da Mata",
+    "partido":"PSB",
+    "uf":"BA",
+    "total_gasto":1729659.9099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ricardo Salles",
+    "partido":"NOVO",
+    "uf":"SP",
+    "total_gasto":1728559.71,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fernando Monteiro",
+    "partido":"PSD",
+    "uf":"PE",
+    "total_gasto":1727156.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Folletto",
+    "partido":"PSB",
+    "uf":"ES",
+    "total_gasto":1724794.26,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Clodoaldo Magalhães",
+    "partido":"PV",
+    "uf":"PE",
+    "total_gasto":1724732.26,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alice Portugal",
+    "partido":"PCdoB",
+    "uf":"BA",
+    "total_gasto":1723802.6100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dilceu Sperafico",
+    "partido":"PP",
+    "uf":"PR",
+    "total_gasto":1722017.3600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Henrique Gaguim",
+    "partido":"UNIÃO",
+    "uf":"TO",
+    "total_gasto":1719844.55,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mauro Benevides Filho",
+    "partido":"UNIÃO",
+    "uf":"CE",
+    "total_gasto":1719790.27,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniel Freitas",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":1717318.5600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Tião Medeiros",
+    "partido":"PP",
+    "uf":"PR",
+    "total_gasto":1717033.4199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ana Paula Lima",
+    "partido":"PT",
+    "uf":"SC",
+    "total_gasto":1716884.1100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Kiko Celeguim",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1716687.6299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"José Airton Félix Cirilo",
+    "partido":"PT",
+    "uf":"CE",
+    "total_gasto":1715391.5700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Guilherme Uchoa",
+    "partido":"PSD",
+    "uf":"PE",
+    "total_gasto":1714319.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Waldenor Pereira",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":1714205.8700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Juliana Cardoso",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1713399.5900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Zarattini",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1712615.9299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"André Figueiredo",
+    "partido":"PDT",
+    "uf":"CE",
+    "total_gasto":1709912.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Azi",
+    "partido":"UNIÃO",
+    "uf":"BA",
+    "total_gasto":1708608.1299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vitor Lippi",
+    "partido":"PSD",
+    "uf":"SP",
+    "total_gasto":1705001.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Júlio Cesar",
+    "partido":"PSD",
+    "uf":"PI",
+    "total_gasto":1704451.05,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Roberta Roma",
+    "partido":"PL",
+    "uf":"BA",
+    "total_gasto":1703855.52,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sergio Souza",
+    "partido":"MDB",
+    "uf":"PR",
+    "total_gasto":1702491.1799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fernando Rodolfo",
+    "partido":"PRD",
+    "uf":"PE",
+    "total_gasto":1701736.76,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Fabio Costa",
+    "partido":"PP",
+    "uf":"AL",
+    "total_gasto":1698972.6499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Evair Vieira de Melo",
+    "partido":"REPUBLICANOS",
+    "uf":"ES",
+    "total_gasto":1698230.05,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Átila Lira",
+    "partido":"PP",
+    "uf":"PI",
+    "total_gasto":1697412.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jonas Donizette",
+    "partido":"PSB",
+    "uf":"SP",
+    "total_gasto":1695680.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mendonça Filho",
+    "partido":"PL",
+    "uf":"PE",
+    "total_gasto":1695245.55,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gustinho Ribeiro",
+    "partido":"PP",
+    "uf":"SE",
+    "total_gasto":1694991.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Célio Studart",
+    "partido":"PSD",
+    "uf":"CE",
+    "total_gasto":1694497.5800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Damião Feliciano",
+    "partido":"UNIÃO",
+    "uf":"PB",
+    "total_gasto":1694163.0700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Amaro Neto",
+    "partido":"PP",
+    "uf":"ES",
+    "total_gasto":1690715.9199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rogéria Santos",
+    "partido":"REPUBLICANOS",
+    "uf":"BA",
+    "total_gasto":1690550.6499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pastor Eurico",
+    "partido":"PSDB",
+    "uf":"PE",
+    "total_gasto":1689897.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jorge Solla",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":1688814.21,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Matheus Laiola",
+    "partido":"UNIÃO",
+    "uf":"PR",
+    "total_gasto":1688236.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Nishimori",
+    "partido":"PSD",
+    "uf":"PR",
+    "total_gasto":1687977.24,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Valmir Assunção",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":1685847.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Juninho do Pneu",
+    "partido":"PSDB",
+    "uf":"RJ",
+    "total_gasto":1685606.6200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Luiz Ovando",
+    "partido":"PP",
+    "uf":"MS",
+    "total_gasto":1684365.1399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Leur Lomanto Júnior",
+    "partido":"UNIÃO",
+    "uf":"BA",
+    "total_gasto":1683399.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Márcio Marinho",
+    "partido":"REPUBLICANOS",
+    "uf":"BA",
+    "total_gasto":1682177.46,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bruno Farias",
+    "partido":"REPUBLICANOS",
+    "uf":"MG",
+    "total_gasto":1680705.6200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Stefano Aguiar",
+    "partido":"PSD",
+    "uf":"MG",
+    "total_gasto":1679211.24,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Domingos Sávio",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1677182.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Capitão Alden",
+    "partido":"PL",
+    "uf":"BA",
+    "total_gasto":1677123.1100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Frederico",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1676851.4399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Robinson Faria",
+    "partido":"PP",
+    "uf":"RN",
+    "total_gasto":1676734.7,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ricardo Ayres",
+    "partido":"REPUBLICANOS",
+    "uf":"TO",
+    "total_gasto":1676023.1200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Maria Arraes",
+    "partido":"PSB",
+    "uf":"PE",
+    "total_gasto":1675698.1000000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fernanda Pessoa",
+    "partido":"PSD",
+    "uf":"CE",
+    "total_gasto":1674747.98,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Marcelo Freitas",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1673589.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Julia Zanatta",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":1672983.47,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Castro Neto",
+    "partido":"MDB",
+    "uf":"PI",
+    "total_gasto":1672868.6399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bebeto",
+    "partido":"PP",
+    "uf":"RJ",
+    "total_gasto":1667829.95,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Misael Varella",
+    "partido":"PSD",
+    "uf":"MG",
+    "total_gasto":1665487.8100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ivoneide Caetano",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":1665213.8400000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rafael Brito",
+    "partido":"MDB",
+    "uf":"AL",
+    "total_gasto":1664117.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Filipe Martins",
+    "partido":"PL",
+    "uf":"TO",
+    "total_gasto":1662637.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pr. Marco Feliciano",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1662162.53,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Leo Prates",
+    "partido":"REPUBLICANOS",
+    "uf":"BA",
+    "total_gasto":1658588.1499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcelo Crivella",
+    "partido":"REPUBLICANOS",
+    "uf":"RJ",
+    "total_gasto":1657671.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcos Pollon",
+    "partido":"PL",
+    "uf":"MS",
+    "total_gasto":1656923.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mário Negromonte Jr.",
+    "partido":"PSB",
+    "uf":"BA",
+    "total_gasto":1656647.8,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Leonardo Monteiro",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1654570.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alencar Santana",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1652260.74,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dani Cunha",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1652057.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gilson Daniel",
+    "partido":"PODE",
+    "uf":"ES",
+    "total_gasto":1649522.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fernando Mineiro",
+    "partido":"PT",
+    "uf":"RN",
+    "total_gasto":1649167.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rafael Simoes",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1648928.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Julio Arcoverde",
+    "partido":"PP",
+    "uf":"PI",
+    "total_gasto":1648749.55,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniel Barbosa",
+    "partido":"PP",
+    "uf":"AL",
+    "total_gasto":1647986.0700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dal Barreto",
+    "partido":"UNIÃO",
+    "uf":"BA",
+    "total_gasto":1647004.8600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rogério Correia",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1646584.0600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Max Lemos",
+    "partido":"UNIÃO",
+    "uf":"RJ",
+    "total_gasto":1646068.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Aguinaldo Ribeiro",
+    "partido":"PP",
+    "uf":"PB",
+    "total_gasto":1644889.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rubens Otoni",
+    "partido":"PT",
+    "uf":"GO",
+    "total_gasto":1644633.1000000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mauricio do Vôlei",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1644530.77,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Josivaldo JP",
+    "partido":"UNIÃO",
+    "uf":"MA",
+    "total_gasto":1644476.99,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luisa Canziani",
+    "partido":"UNIÃO",
+    "uf":"PR",
+    "total_gasto":1644303.3500000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Nilto Tatto",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1643136.1499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Felipe Francischini",
+    "partido":"PODE",
+    "uf":"PR",
+    "total_gasto":1642757.5800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Messias Donato",
+    "partido":"UNIÃO",
+    "uf":"ES",
+    "total_gasto":1641249.3200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fabio Schiochet",
+    "partido":"UNIÃO",
+    "uf":"SC",
+    "total_gasto":1640842.95,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fausto Pinato",
+    "partido":"UNIÃO",
+    "uf":"SP",
+    "total_gasto":1640294.3,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rosângela Reis",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1638542.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gilberto Nascimento",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1637734.6499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marangoni",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1635028.77,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Adilson Barroso",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1634672.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Iza Arruda",
+    "partido":"MDB",
+    "uf":"PE",
+    "total_gasto":1633391.01,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Padre João",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1633087.8600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Da Vitoria",
+    "partido":"PP",
+    "uf":"ES",
+    "total_gasto":1629568.6299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Samuel Viana",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1628925.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"João Daniel",
+    "partido":"PT",
+    "uf":"SE",
+    "total_gasto":1628176.4199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Simone Marquetto",
+    "partido":"PP",
+    "uf":"SP",
+    "total_gasto":1628136.73,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Victor Linhalis",
+    "partido":"PSB",
+    "uf":"ES",
+    "total_gasto":1626140.6499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Campos",
+    "partido":"PSB",
+    "uf":"PE",
+    "total_gasto":1624724.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Coronel Assis",
+    "partido":"PL",
+    "uf":"MT",
+    "total_gasto":1624487.76,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zé Silva",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1624291.9099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pastor Henrique Vieira",
+    "partido":"PSOL",
+    "uf":"RJ",
+    "total_gasto":1624118.46,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jilmar Tatto",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1623701.03,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Reimont",
+    "partido":"PT",
+    "uf":"RJ",
+    "total_gasto":1621852.8700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Adriano do Baldy",
+    "partido":"PP",
+    "uf":"GO",
+    "total_gasto":1619572.6899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Professor Alcides",
+    "partido":"PSDB",
+    "uf":"GO",
+    "total_gasto":1615798.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Igor Timo",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1615615.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carol Dartora",
+    "partido":"PT",
+    "uf":"PR",
+    "total_gasto":1612748.6399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcelo Álvaro Antônio",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1611745.8,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Raimundo Santos",
+    "partido":"PSD",
+    "uf":"PA",
+    "total_gasto":1611560.8400000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Charles Fernandes",
+    "partido":"PSD",
+    "uf":"BA",
+    "total_gasto":1611112.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alexandre Lindenmeyer",
+    "partido":"PT",
+    "uf":"RS",
+    "total_gasto":1610107.1299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marussa Boldrin",
+    "partido":"REPUBLICANOS",
+    "uf":"GO",
+    "total_gasto":1607077.27,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luciano Ducci",
+    "partido":"PSB",
+    "uf":"PR",
+    "total_gasto":1603485.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Lupion",
+    "partido":"REPUBLICANOS",
+    "uf":"PR",
+    "total_gasto":1602954.8100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Chico Alencar",
+    "partido":"PSOL",
+    "uf":"RJ",
+    "total_gasto":1602415.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Félix Mendonça Júnior",
+    "partido":"PDT",
+    "uf":"BA",
+    "total_gasto":1602231.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Guedes",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1601841.9299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zé Vitor",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1599956.0900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jefferson Campos",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1599818.6699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Márcio Biolchi",
+    "partido":"MDB",
+    "uf":"RS",
+    "total_gasto":1599554.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Lima",
+    "partido":"NOVO",
+    "uf":"RJ",
+    "total_gasto":1599334.21,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ana Pimentel",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1597502.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Filipe Barros",
+    "partido":"PL",
+    "uf":"PR",
+    "total_gasto":1597335.01,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Sampaio",
+    "partido":"PSD",
+    "uf":"SP",
+    "total_gasto":1596174.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcos Pereira",
+    "partido":"REPUBLICANOS",
+    "uf":"SP",
+    "total_gasto":1593389.8600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ricardo Maia",
+    "partido":"MDB",
+    "uf":"BA",
+    "total_gasto":1593112.8,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Orlando Silva",
+    "partido":"PCdoB",
+    "uf":"SP",
+    "total_gasto":1592645.1899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Thiago de Joaldo",
+    "partido":"REPUBLICANOS",
+    "uf":"SE",
+    "total_gasto":1591276.1299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Maria Rosas",
+    "partido":"REPUBLICANOS",
+    "uf":"SP",
+    "total_gasto":1591107.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegada Ione",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1589963.3600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Julio Lopes",
+    "partido":"PP",
+    "uf":"RJ",
+    "total_gasto":1588825.99,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Coronel Fernanda",
+    "partido":"PL",
+    "uf":"MT",
+    "total_gasto":1587916.48,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Tadeu Veneri",
+    "partido":"PT",
+    "uf":"PR",
+    "total_gasto":1583150.25,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mauricio Marcon",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":1581702.3400000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ana Paula Leão",
+    "partido":"PP",
+    "uf":"MG",
+    "total_gasto":1580194.52,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Murillo Gouvea",
+    "partido":"PSDB",
+    "uf":"RJ",
+    "total_gasto":1578743.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado da Cunha",
+    "partido":"UNIÃO",
+    "uf":"SP",
+    "total_gasto":1578404.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"David Soares",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1576612.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lincoln Portela",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1575519.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Romero Rodrigues",
+    "partido":"PODE",
+    "uf":"PB",
+    "total_gasto":1575429.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zeca Dirceu",
+    "partido":"PT",
+    "uf":"PR",
+    "total_gasto":1572231.6799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Claudio Cajado",
+    "partido":"PP",
+    "uf":"BA",
+    "total_gasto":1571318.6000000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alfredinho",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1570484.98,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Emanuel Pinheiro Neto",
+    "partido":"PSD",
+    "uf":"MT",
+    "total_gasto":1570268.9299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Patrus Ananias",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1569768.6599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Célia Xakriabá",
+    "partido":"PSOL",
+    "uf":"MG",
+    "total_gasto":1569552.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lafayette de Andrada",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1565674.0900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Magda Mofatto",
+    "partido":"PL",
+    "uf":"GO",
+    "total_gasto":1563409.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Diego Andrade",
+    "partido":"PSD",
+    "uf":"MG",
+    "total_gasto":1562881.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Palumbo",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1562360.8400000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"José Nelto",
+    "partido":"UNIÃO",
+    "uf":"GO",
+    "total_gasto":1562030.8,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Welter",
+    "partido":"PT",
+    "uf":"PR",
+    "total_gasto":1559754.1399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Junior Lourenço",
+    "partido":"MDB",
+    "uf":"MA",
+    "total_gasto":1558774.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Florentino Neto",
+    "partido":"PT",
+    "uf":"PI",
+    "total_gasto":1558706.8700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Júnior Mano",
+    "partido":"PSB",
+    "uf":"CE",
+    "total_gasto":1556996.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Laura Carneiro",
+    "partido":"PSD",
+    "uf":"RJ",
+    "total_gasto":1555569.0600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcon",
+    "partido":"PT",
+    "uf":"RS",
+    "total_gasto":1554163.95,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mauricio Neves",
+    "partido":"PP",
+    "uf":"SP",
+    "total_gasto":1553625.51,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eli Borges",
+    "partido":"REPUBLICANOS",
+    "uf":"TO",
+    "total_gasto":1552455.6399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sóstenes Cavalcante",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1547382.3100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Joaquim Passarinho",
+    "partido":"PL",
+    "uf":"PA",
+    "total_gasto":1542244.8,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Renata Abreu",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1540963.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rodrigo de Castro",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1539919.0700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Weliton Prado",
+    "partido":"PSD",
+    "uf":"MG",
+    "total_gasto":1539373.6299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gilberto Abramo",
+    "partido":"REPUBLICANOS",
+    "uf":"MG",
+    "total_gasto":1537233.7,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Ismael Alexandrino",
+    "partido":"PSD",
+    "uf":"GO",
+    "total_gasto":1533959.02,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jorge Braz",
+    "partido":"REPUBLICANOS",
+    "uf":"RJ",
+    "total_gasto":1531941.3999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jack Rocha",
+    "partido":"PT",
+    "uf":"ES",
+    "total_gasto":1531429.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Aluisio Mendes",
+    "partido":"REPUBLICANOS",
+    "uf":"MA",
+    "total_gasto":1530074.4399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fernanda Melchionna",
+    "partido":"PSOL",
+    "uf":"RS",
+    "total_gasto":1528186.6100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Magalhães",
+    "partido":"PSD",
+    "uf":"BA",
+    "total_gasto":1525962.1200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Beto Richa",
+    "partido":"PSDB",
+    "uf":"PR",
+    "total_gasto":1523564.0600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bruno Ganem",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1523011.8300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Túlio Gadêlha",
+    "partido":"PSD",
+    "uf":"PE",
+    "total_gasto":1514821.3100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Zacharias Calil",
+    "partido":"MDB",
+    "uf":"GO",
+    "total_gasto":1514459.6799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulão",
+    "partido":"PT",
+    "uf":"AL",
+    "total_gasto":1514351.77,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Uczai",
+    "partido":"PT",
+    "uf":"SC",
+    "total_gasto":1513755.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Otoni de Paula",
+    "partido":"PSD",
+    "uf":"RJ",
+    "total_gasto":1513256.5600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dra. Alessandra Haber",
+    "partido":"PODE",
+    "uf":"PA",
+    "total_gasto":1512152.5,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rosana Valle",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1509903.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Arnaldo Jardim",
+    "partido":"CIDADANIA",
+    "uf":"SP",
+    "total_gasto":1505997.54,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mario Frias",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1504903.8200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"General Pazuello",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1504520.4399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Emidinho Madeira",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1504361.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rodrigo Gambale",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1503518.47,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Arlindo Chinaglia",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1502298.47,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Adolfo Viana",
+    "partido":"PSDB",
+    "uf":"BA",
+    "total_gasto":1502208.1799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dimas Fabiano",
+    "partido":"PP",
+    "uf":"MG",
+    "total_gasto":1499469.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Nely Aquino",
+    "partido":"PODE",
+    "uf":"MG",
+    "total_gasto":1494411.04,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Paulo Bilynskyj",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1491527.48,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Geraldo Mendes",
+    "partido":"UNIÃO",
+    "uf":"PR",
+    "total_gasto":1491182.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Padovani",
+    "partido":"PP",
+    "uf":"PR",
+    "total_gasto":1491021.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Paulo",
+    "partido":"PSD",
+    "uf":"RJ",
+    "total_gasto":1490448.95,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rodrigo Valadares",
+    "partido":"PL",
+    "uf":"SE",
+    "total_gasto":1489962.8300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zé Neto",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":1487513.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Amanda Gentil",
+    "partido":"PP",
+    "uf":"MA",
+    "total_gasto":1485520.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gervásio Maia",
+    "partido":"PCdoB",
+    "uf":"PB",
+    "total_gasto":1485178.3899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Miguel Ângelo",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1484004.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pastor Gil",
+    "partido":"PL",
+    "uf":"MA",
+    "total_gasto":1482042.8899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Cobalchini",
+    "partido":"MDB",
+    "uf":"SC",
+    "total_gasto":1479779.8700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Diego Coronel",
+    "partido":"REPUBLICANOS",
+    "uf":"BA",
+    "total_gasto":1478680.9099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Yandra Moura",
+    "partido":"UNIÃO",
+    "uf":"SE",
+    "total_gasto":1478153.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Freire Costa",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1476586.03,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Fernando Faria",
+    "partido":"UNIÃO",
+    "uf":"MG",
+    "total_gasto":1473624.27,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sargento Portugal",
+    "partido":"PODE",
+    "uf":"RJ",
+    "total_gasto":1471642.6399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"José Rocha",
+    "partido":"UNIÃO",
+    "uf":"BA",
+    "total_gasto":1471556.6200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vinicius Carvalho",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1469871.26,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Aécio Neves",
+    "partido":"PSDB",
+    "uf":"MG",
+    "total_gasto":1468588.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Jordy",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1466583.5900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ismael",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":1463810.5700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Elmar Nascimento",
+    "partido":"UNIÃO",
+    "uf":"BA",
+    "total_gasto":1463289.1399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Felipe Carreras",
+    "partido":"PSB",
+    "uf":"PE",
+    "total_gasto":1461673.8799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lêda Borges",
+    "partido":"REPUBLICANOS",
+    "uf":"GO",
+    "total_gasto":1460758.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alberto Fraga",
+    "partido":"PL",
+    "uf":"DF",
+    "total_gasto":1458180.0700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fernando Coelho Filho",
+    "partido":"UNIÃO",
+    "uf":"PE",
+    "total_gasto":1458132.71,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Roberto Monteiro Pai",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1456242.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Flávia Morais",
+    "partido":"MDB",
+    "uf":"GO",
+    "total_gasto":1451480.1100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcos Soares",
+    "partido":"PSDB",
+    "uf":"RJ",
+    "total_gasto":1451218.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Márcio Honaiser",
+    "partido":"SOLIDARIEDADE",
+    "uf":"MA",
+    "total_gasto":1447650.3500000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Abi-Ackel",
+    "partido":"PSDB",
+    "uf":"MG",
+    "total_gasto":1445242.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jeferson Rodrigues",
+    "partido":"PSDB",
+    "uf":"GO",
+    "total_gasto":1441683.0900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mário Heringer",
+    "partido":"PDT",
+    "uf":"MG",
+    "total_gasto":1441306.6799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sâmia Bomfim",
+    "partido":"PSOL",
+    "uf":"SP",
+    "total_gasto":1439530.6100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Erika Kokay",
+    "partido":"PT",
+    "uf":"DF",
+    "total_gasto":1436141.3600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Célio Silveira",
+    "partido":"MDB",
+    "uf":"GO",
+    "total_gasto":1435094.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Tarcísio Motta",
+    "partido":"PSOL",
+    "uf":"RJ",
+    "total_gasto":1434528.6699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Icaro de Valmir",
+    "partido":"REPUBLICANOS",
+    "uf":"SE",
+    "total_gasto":1434348.0700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Benedita da Silva",
+    "partido":"PT",
+    "uf":"RJ",
+    "total_gasto":1430209.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Glaustin da Fokus",
+    "partido":"PODE",
+    "uf":"GO",
+    "total_gasto":1424210.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Mersinho Lucena",
+    "partido":"PSD",
+    "uf":"PB",
+    "total_gasto":1421168.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dandara",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1421071.4199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gutemberg Reis",
+    "partido":"MDB",
+    "uf":"RJ",
+    "total_gasto":1419366.8999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Reginaldo Lopes",
+    "partido":"PT",
+    "uf":"MG",
+    "total_gasto":1418908.47,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pinheirinho",
+    "partido":"PP",
+    "uf":"MG",
+    "total_gasto":1417796.3500000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alfredo Gaspar",
+    "partido":"PL",
+    "uf":"AL",
+    "total_gasto":1415636.4399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rui Falcão",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":1415044.02,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Philippe de Orleans e Bragança",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1414726.47,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Talíria Petrone",
+    "partido":"PSOL",
+    "uf":"RJ",
+    "total_gasto":1412589.52,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lucas Redecker",
+    "partido":"PSD",
+    "uf":"RS",
+    "total_gasto":1412388.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"André Janones",
+    "partido":"REDE",
+    "uf":"MG",
+    "total_gasto":1410611.5900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sargento Gonçalves",
+    "partido":"PL",
+    "uf":"RN",
+    "total_gasto":1408626.8799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Aureo Ribeiro",
+    "partido":"SOLIDARIEDADE",
+    "uf":"RJ",
+    "total_gasto":1407087.6399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"João Carlos Bacelar",
+    "partido":"PL",
+    "uf":"BA",
+    "total_gasto":1407023.1200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dimas Gadelha",
+    "partido":"PT",
+    "uf":"RJ",
+    "total_gasto":1406557.26,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Matheus Noronha",
+    "partido":"PL",
+    "uf":"CE",
+    "total_gasto":1397822.1699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Andreia Siqueira",
+    "partido":"PSB",
+    "uf":"PA",
+    "total_gasto":1397106.1100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eros Biondini",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1393660.1799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Duda Salabert",
+    "partido":"PSOL",
+    "uf":"MG",
+    "total_gasto":1393352.3300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bandeira de Mello",
+    "partido":"PV",
+    "uf":"RJ",
+    "total_gasto":1391666.1499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiza Erundina",
+    "partido":"PSOL",
+    "uf":"SP",
+    "total_gasto":1390865.96,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fred Costa",
+    "partido":"PRD",
+    "uf":"MG",
+    "total_gasto":1389180.6899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Capitão Alberto Neto",
+    "partido":"PL",
+    "uf":"AM",
+    "total_gasto":1388824.6899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jorge Goetten",
+    "partido":"REPUBLICANOS",
+    "uf":"SC",
+    "total_gasto":1387583.51,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Jandira Feghali",
+    "partido":"PCdoB",
+    "uf":"RJ",
+    "total_gasto":1386548.8,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegada Adriana Accorsi",
+    "partido":"PT",
+    "uf":"GO",
+    "total_gasto":1382300.3100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Tiririca",
+    "partido":"PSD",
+    "uf":"SP",
+    "total_gasto":1377231.9399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Renildo Calheiros",
+    "partido":"PCdoB",
+    "uf":"PE",
+    "total_gasto":1376453.2,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pedro Aihara",
+    "partido":"PP",
+    "uf":"MG",
+    "total_gasto":1375388.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fábio Macedo",
+    "partido":"PODE",
+    "uf":"MA",
+    "total_gasto":1364053.73,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fred Linhares",
+    "partido":"REPUBLICANOS",
+    "uf":"DF",
+    "total_gasto":1360905.3700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcos Tavares",
+    "partido":"PDT",
+    "uf":"RJ",
+    "total_gasto":1358753.0,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rafael Prudente",
+    "partido":"MDB",
+    "uf":"DF",
+    "total_gasto":1355583.54,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Geovania de Sá",
+    "partido":"REPUBLICANOS",
+    "uf":"SC",
+    "total_gasto":1353954.24,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luciano Vieira",
+    "partido":"PSDB",
+    "uf":"RJ",
+    "total_gasto":1352527.3500000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcelo Queiroz",
+    "partido":"PSDB",
+    "uf":"RJ",
+    "total_gasto":1351962.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Bia Kicis",
+    "partido":"PL",
+    "uf":"DF",
+    "total_gasto":1347898.6499999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Newton Cardoso Jr",
+    "partido":"MDB",
+    "uf":"MG",
+    "total_gasto":1345245.6799999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Yury do Paredão",
+    "partido":"MDB",
+    "uf":"CE",
+    "total_gasto":1327954.02,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Duarte Jr.",
+    "partido":"AVANTE",
+    "uf":"MA",
+    "total_gasto":1326370.05,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Clarissa Tércio",
+    "partido":"PP",
+    "uf":"PE",
+    "total_gasto":1325799.29,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Greyce Elias",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1321536.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Erika Hilton",
+    "partido":"PSOL",
+    "uf":"SP",
+    "total_gasto":1319671.6100000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Hercílio Coelho Diniz",
+    "partido":"MDB",
+    "uf":"MG",
+    "total_gasto":1316695.22,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gilvan da Federal",
+    "partido":"PL",
+    "uf":"ES",
+    "total_gasto":1311504.3999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Carlos Hauly",
+    "partido":"PODE",
+    "uf":"PR",
+    "total_gasto":1311257.73,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Altineu Côrtes",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1307339.0600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Juarez Costa",
+    "partido":"REPUBLICANOS",
+    "uf":"MT",
+    "total_gasto":1301198.99,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Antonio Carlos Rodrigues",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1280454.3899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Helder Salomão",
+    "partido":"PT",
+    "uf":"ES",
+    "total_gasto":1267111.5700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Silvye Alves",
+    "partido":"UNIÃO",
+    "uf":"GO",
+    "total_gasto":1262875.5600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Saulo Pedroso",
+    "partido":"PSD",
+    "uf":"SP",
+    "total_gasto":1261032.48,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fausto Jr.",
+    "partido":"UNIÃO",
+    "uf":"AM",
+    "total_gasto":1260427.5900000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luciano Bivar",
+    "partido":"MDB",
+    "uf":"PE",
+    "total_gasto":1247673.0800000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Chris Tonietto",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1224644.3999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rosangela Moro",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1219500.3999999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Saullo Vianna",
+    "partido":"MDB",
+    "uf":"AM",
+    "total_gasto":1210794.05,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pezenti",
+    "partido":"MDB",
+    "uf":"SC",
+    "total_gasto":1209693.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Prof. Reginaldo Veras",
+    "partido":"PV",
+    "uf":"DF",
+    "total_gasto":1196768.4199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Luiz Carlos Motta",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1186127.71,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Professora Luciene Cavalcante",
+    "partido":"PSOL",
+    "uf":"SP",
+    "total_gasto":1180111.8600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zucco",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":1177502.9199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Lindbergh Farias",
+    "partido":"PT",
+    "uf":"RJ",
+    "total_gasto":1167353.45,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Nikolas Ferreira",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1156391.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Baleia Rossi",
+    "partido":"MDB",
+    "uf":"SP",
+    "total_gasto":1155786.4299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alex Manente",
+    "partido":"CIDADANIA",
+    "uf":"SP",
+    "total_gasto":1142237.3899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Felipe Becari",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":1133765.4099999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Miguel Lombardi",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":1129185.5700000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gleisi Hoffmann",
+    "partido":"PT",
+    "uf":"PR",
+    "total_gasto":1121962.97,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Helio Lopes",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":1113160.5,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Isnaldo Bulhões Jr.",
+    "partido":"MDB",
+    "uf":"AL",
+    "total_gasto":1111495.6200000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Júnior Ferrari",
+    "partido":"PSD",
+    "uf":"PA",
+    "total_gasto":1107251.55,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"AJ Albuquerque",
+    "partido":"PP",
+    "uf":"CE",
+    "total_gasto":1106638.6299999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vicentinho Júnior",
+    "partido":"PSDB",
+    "uf":"TO",
+    "total_gasto":1100539.1599999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gustavo Gayer",
+    "partido":"PL",
+    "uf":"GO",
+    "total_gasto":1099690.9199999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Julio Cesar Ribeiro",
+    "partido":"REPUBLICANOS",
+    "uf":"DF",
+    "total_gasto":1055389.3,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Idilvan Alencar",
+    "partido":"PSB",
+    "uf":"CE",
+    "total_gasto":1049191.24,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Nelson Barbudo",
+    "partido":"PODE",
+    "uf":"MT",
+    "total_gasto":1044751.27,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"José Priante",
+    "partido":"MDB",
+    "uf":"PA",
+    "total_gasto":1021783.34,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Junio Amaral",
+    "partido":"PL",
+    "uf":"MG",
+    "total_gasto":1020526.15,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Soraya Santos",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":992605.89,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fábio Teruel",
+    "partido":"MDB",
+    "uf":"SP",
+    "total_gasto":991662.36,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Hugo Leal",
+    "partido":"PSD",
+    "uf":"RJ",
+    "total_gasto":981164.14,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Elcione Barbalho",
+    "partido":"MDB",
+    "uf":"PA",
+    "total_gasto":978933.67,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"André Fernandes",
+    "partido":"PL",
+    "uf":"CE",
+    "total_gasto":974701.2,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Eduardo Bismarck",
+    "partido":"PV",
+    "uf":"CE",
+    "total_gasto":962088.34,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Any Ortiz",
+    "partido":"PP",
+    "uf":"RS",
+    "total_gasto":961005.9,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ricardo Guidi",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":952194.27,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Doutor Luizinho",
+    "partido":"PP",
+    "uf":"RJ",
+    "total_gasto":949927.67,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcelo Moraes",
+    "partido":"PL",
+    "uf":"RS",
+    "total_gasto":942372.62,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Robério Monteiro",
+    "partido":"PSB",
+    "uf":"CE",
+    "total_gasto":940396.0699999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Alexandre Barbosa",
+    "partido":"PSD",
+    "uf":"SP",
+    "total_gasto":882331.4399999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcel van Hattem",
+    "partido":"NOVO",
+    "uf":"RS",
+    "total_gasto":873065.4300000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniela do Waguinho",
+    "partido":"REPUBLICANOS",
+    "uf":"RJ",
+    "total_gasto":853316.17,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fabio Reis",
+    "partido":"PSD",
+    "uf":"SE",
+    "total_gasto":838601.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Bruno Lima",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":838325.86,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Chiodini",
+    "partido":"MDB",
+    "uf":"SC",
+    "total_gasto":817259.71,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Zé Adriano",
+    "partido":"PP",
+    "uf":"AC",
+    "total_gasto":816441.28,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Celso Russomanno",
+    "partido":"REPUBLICANOS",
+    "uf":"SP",
+    "total_gasto":816129.61,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulinho da Força",
+    "partido":"SOLIDARIEDADE",
+    "uf":"SP",
+    "total_gasto":803178.92,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sargento Fahur",
+    "partido":"PL",
+    "uf":"PR",
+    "total_gasto":775364.75,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Delegado Caveira",
+    "partido":"PL",
+    "uf":"PA",
+    "total_gasto":758835.9,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carla Dickson",
+    "partido":"PL",
+    "uf":"RN",
+    "total_gasto":746134.14,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Hildo Rocha",
+    "partido":"MDB",
+    "uf":"MA",
+    "total_gasto":735030.72,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rodrigo da Zaeli",
+    "partido":"PL",
+    "uf":"MT",
+    "total_gasto":721854.12,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Caroline de Toni",
+    "partido":"PL",
+    "uf":"SC",
+    "total_gasto":695695.6,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"João Cury",
+    "partido":"MDB",
+    "uf":"SP",
+    "total_gasto":681317.85,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Danrlei de Deus Hinterholz",
+    "partido":"PSD",
+    "uf":"RS",
+    "total_gasto":680809.88,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Pimenta",
+    "partido":"PT",
+    "uf":"RS",
+    "total_gasto":665035.13,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ricardo Abrão",
+    "partido":"PSDB",
+    "uf":"RJ",
+    "total_gasto":660127.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Alexandre Leite",
+    "partido":"UNIÃO",
+    "uf":"SP",
+    "total_gasto":656235.25,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Pastor Sargento Isidório",
+    "partido":"AVANTE",
+    "uf":"BA",
+    "total_gasto":631332.79,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ribamar Silva",
+    "partido":"PODE",
+    "uf":"SP",
+    "total_gasto":612917.33,
+    "ano_minimo":2024.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Daniel Agrobom",
+    "partido":"PSD",
+    "uf":"GO",
+    "total_gasto":574399.5600000001,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Kim Kataguiri",
+    "partido":"MISSÃO",
+    "uf":"SP",
+    "total_gasto":570361.1899999999,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Arthur Lira",
+    "partido":"PP",
+    "uf":"AL",
+    "total_gasto":543227.34,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Gilson Marques",
+    "partido":"NOVO",
+    "uf":"SC",
+    "total_gasto":510002.14,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ricardo Barros",
+    "partido":"PP",
+    "uf":"PR",
+    "total_gasto":476964.36,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Enfermeira Rejane",
+    "partido":"PCdoB",
+    "uf":"RJ",
+    "total_gasto":463541.04,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"André Abdon",
+    "partido":"PP",
+    "uf":"AP",
+    "total_gasto":440225.49,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rafael Fera",
+    "partido":"PODE",
+    "uf":"RO",
+    "total_gasto":392086.6,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Missionário José Olimpio",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":384141.44,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr. Daniel Soranz",
+    "partido":"PSD",
+    "uf":"RJ",
+    "total_gasto":379042.62,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Tiago Dimas",
+    "partido":"PODE",
+    "uf":"TO",
+    "total_gasto":378075.89,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Professora Marcivania",
+    "partido":"PCdoB",
+    "uf":"AP",
+    "total_gasto":373351.06,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Juscelino Filho",
+    "partido":"PSDB",
+    "uf":"MA",
+    "total_gasto":373349.83,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Silvio Costa Filho",
+    "partido":"REPUBLICANOS",
+    "uf":"PE",
+    "total_gasto":371048.07,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Celso Sabino",
+    "partido":"PDT",
+    "uf":"PA",
+    "total_gasto":350373.26,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Beto Preto",
+    "partido":"PSD",
+    "uf":"PR",
+    "total_gasto":336898.09,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Carlos Gomes",
+    "partido":"REPUBLICANOS",
+    "uf":"RS",
+    "total_gasto":330170.66,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Dr Flávio",
+    "partido":"PL",
+    "uf":"RJ",
+    "total_gasto":327738.74,
+    "ano_minimo":2024.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Milton Vieira",
+    "partido":"REPUBLICANOS",
+    "uf":"SP",
+    "total_gasto":305215.32,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Silvio Antonio",
+    "partido":"PL",
+    "uf":"MA",
+    "total_gasto":275887.87,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rodrigo Rollemberg",
+    "partido":"PSB",
+    "uf":"DF",
+    "total_gasto":258878.81,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Marinho Jr",
+    "partido":"PL",
+    "uf":"MA",
+    "total_gasto":248194.33,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Adriana Ventura",
+    "partido":"NOVO",
+    "uf":"SP",
+    "total_gasto":247921.24,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sérgio Brito",
+    "partido":"PSD",
+    "uf":"BA",
+    "total_gasto":212931.95,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"André Fufuca",
+    "partido":"PP",
+    "uf":"MA",
+    "total_gasto":190099.03,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vanderlan Alves",
+    "partido":"SOLIDARIEDADE",
+    "uf":"CE",
+    "total_gasto":177647.74,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Heloísa Helena",
+    "partido":"REDE",
+    "uf":"RJ",
+    "total_gasto":169488.67,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sandro Alex",
+    "partido":"PSD",
+    "uf":"PR",
+    "total_gasto":147257.46,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcio Alvino",
+    "partido":"PL",
+    "uf":"SP",
+    "total_gasto":136707.34,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Fabio Garcia",
+    "partido":"UNIÃO",
+    "uf":"MT",
+    "total_gasto":136194.91,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ribeiro Neto",
+    "partido":"SOLIDARIEDADE",
+    "uf":"MA",
+    "total_gasto":134929.59,
+    "ano_minimo":2026.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Amom Mandel",
+    "partido":"REPUBLICANOS",
+    "uf":"AM",
+    "total_gasto":89463.44,
+    "ano_minimo":2023.0,
+    "ano_maximo":2025.0
+  },
+  {
+    "deputado":"Paulo Lemos",
+    "partido":"PT",
+    "uf":"AP",
+    "total_gasto":83106.46,
+    "ano_minimo":2025.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Leandre",
+    "partido":"PSD",
+    "uf":"PR",
+    "total_gasto":81976.81,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marcelo Nilo",
+    "partido":"REPUBLICANOS",
+    "uf":"BA",
+    "total_gasto":67491.39,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Afonso Florence",
+    "partido":"PT",
+    "uf":"BA",
+    "total_gasto":63985.36,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Rosangela Gomes",
+    "partido":"REPUBLICANOS",
+    "uf":"RJ",
+    "total_gasto":57972.33,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Guilherme Derrite",
+    "partido":"PP",
+    "uf":"SP",
+    "total_gasto":54080.78,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Sérgio Turra",
+    "partido":"PP",
+    "uf":"RS",
+    "total_gasto":39661.24,
+    "ano_minimo":2026.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Aline Gurgel",
+    "partido":"UNIÃO",
+    "uf":"AP",
+    "total_gasto":39423.64,
+    "ano_minimo":2023.0,
+    "ano_maximo":2025.0
+  },
+  {
+    "deputado":"Jorge Araújo",
+    "partido":"PP",
+    "uf":"BA",
+    "total_gasto":29994.56,
+    "ano_minimo":2026.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Ilacir Bicalho",
+    "partido":"REPUBLICANOS",
+    "uf":"MG",
+    "total_gasto":16512.0,
+    "ano_minimo":2026.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Vavá",
+    "partido":"AVANTE",
+    "uf":"MG",
+    "total_gasto":11036.52,
+    "ano_minimo":2026.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Marina Silva",
+    "partido":"REDE",
+    "uf":"SP",
+    "total_gasto":6878.74,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Paulo Teixeira",
+    "partido":"PT",
+    "uf":"SP",
+    "total_gasto":3389.64,
+    "ano_minimo":2023.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Itamar Paim",
+    "partido":"PL",
+    "uf":"PR",
+    "total_gasto":1624.6,
+    "ano_minimo":2026.0,
+    "ano_maximo":2026.0
+  },
+  {
+    "deputado":"Inácio Arruda",
+    "partido":"PCdoB",
+    "uf":"CE",
+    "total_gasto":0.0,
+    "ano_minimo":null,
+    "ano_maximo":null
+  },
+  {
+    "deputado":"Sônia Guajajara",
+    "partido":"PSOL",
+    "uf":"SP",
+    "total_gasto":0.0,
+    "ano_minimo":null,
+    "ano_maximo":null
+  },
+  {
+    "deputado":"João Carlos",
+    "partido":"REPUBLICANOS",
+    "uf":"AM",
+    "total_gasto":0.0,
+    "ano_minimo":null,
+    "ano_maximo":null
+  },
+  {
+    "deputado":"Glaycon Franco",
+    "partido":"PV",
+    "uf":"MG",
+    "total_gasto":0.0,
+    "ano_minimo":null,
+    "ano_maximo":null
+  }
+]

@@ -14,8 +14,8 @@ import {
 } from "@/src/tabs";
 
 const tabComponents: Record<string, React.ComponentType> = {
-  Deputados,
-  "Perfil Parlamentar": PerfilParlamentar,
+  deputados: Deputados,
+  "perfil-parlamentar": PerfilParlamentar,
 };
 
 export default function Home() {
@@ -23,6 +23,8 @@ export default function Home() {
   const [section, setSection] =
     useState("dashboard");
   const [isExpanded, setIsExpanded] =
+    useState(false);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] =
     useState(false);
 
   return (
@@ -41,6 +43,10 @@ export default function Home() {
         <Sidebar
           section={section}
           setSection={setSection}
+          isCollapsed={isSidebarCollapsed}
+          onToggle={() =>
+            setIsSidebarCollapsed((prev) => !prev)
+          }
         />
 
         <main className="content-area">

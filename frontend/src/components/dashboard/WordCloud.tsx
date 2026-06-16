@@ -32,7 +32,7 @@ export default function WordCloud() {
             key={word.text}
             style={{
               fontSize:
-                `${12 + word.value / 30}px`,
+                `${12 + word.value / 300}px`,
               marginRight: "10px"
             }}
           >

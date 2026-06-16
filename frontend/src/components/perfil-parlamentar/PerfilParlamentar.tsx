@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import GraficoCamaraInterativo from './PerfilParlamentar/GraficoCamaraInterativo';
+import GraficoCamaraInterativo from './GraficoCamaraInterativo';
 
 export default function PerfilParlamentar() {
   const [criterio, setCriterio] = useState('siglaPartido');

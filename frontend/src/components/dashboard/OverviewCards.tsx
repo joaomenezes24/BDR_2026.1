@@ -1,58 +1,48 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-import {
-  analyticsService
-} from "@/src/services/analyticsService";
+import styles from "./dashboard.module.css";
+import { analyticsService } from "@/src/services/analyticsService";
 
 export default function OverviewCards() {
-
-  const [overview, setOverview] =
-    useState<any>(null);
+  const [overview, setOverview] = useState<any>(null);
 
   useEffect(() => {
-
-    analyticsService
-      .getOverview()
-      .then(setOverview);
-
+    analyticsService.getOverview().then(setOverview);
   }, []);
 
   if (!overview)
     return <p>Carregando...</p>;
 
   return (
-
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns:
-          "repeat(4,1fr)",
-        gap: "1rem"
-      }}
-    >
-
-      <div>
+    <div className={styles.overview}>
+      <div className={styles.overviewCard}>
         <h3>Deputados</h3>
-        <p>{overview.total_deputados}</p>
+        <div className={styles.value}>{overview.total_deputados}</div>
+        <div className={styles.description}>Total na câmara</div>
       </div>
 
-      <div>
+      <div className={styles.overviewCard}>
         <h3>Despesas</h3>
-        <p>{overview.total_despesas}</p>
+        <div className={styles.value}>
+          {typeof overview.total_despesas === "number"
+            ? `${(overview.total_despesas / 1000).toFixed(0)}K`
+            : overview.total_despesas}
+        </div>
+        <div className={styles.description}>Despesas registradas</div>
       </div>
 
-      <div>
+      <div className={styles.overviewCard}>
         <h3>Proposições</h3>
-        <p>{overview.total_proposicoes}</p>
+        <div className={styles.value}>{overview.total_proposicoes}</div>
+        <div className={styles.description}>Leis propostas</div>
       </div>
 
-      <div>
+      <div className={styles.overviewCard}>
         <h3>Votações</h3>
-        <p>{overview.total_votacoes}</p>
+        <div className={styles.value}>{overview.total_votacoes}</div>
+        <div className={styles.description}>Votações registradas</div>
       </div>
-
     </div>
   );
 }
