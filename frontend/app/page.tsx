@@ -13,19 +13,34 @@ import {
   PerfilParlamentar
 } from "@/src/tabs";
 
-const tabComponents: Record<string, React.ComponentType> = {
+import Gastos from "@/src/components/gastos/GastosSection";
+
+const tabComponents: Record<
+  string,
+  React.ComponentType
+> = {
+
   deputados: Deputados,
-  "perfil-parlamentar": PerfilParlamentar,
+
+  gastos: Gastos,
+
+  "perfil-parlamentar":
+    PerfilParlamentar,
 };
 
 export default function Home() {
 
   const [section, setSection] =
     useState("dashboard");
-  const [isExpanded, setIsExpanded] =
+
+  const [isExpanded,
+    setIsExpanded] =
     useState(false);
-  const [isSidebarCollapsed, setIsSidebarCollapsed] =
-    useState(false);
+
+  const [
+    isSidebarCollapsed,
+    setIsSidebarCollapsed
+  ] = useState(false);
 
   return (
 
@@ -34,7 +49,7 @@ export default function Home() {
       <Header
         isExpanded={isExpanded}
         onToggle={() =>
-          setIsExpanded((prev) => !prev)
+          setIsExpanded(prev => !prev)
         }
       />
 
@@ -43,25 +58,33 @@ export default function Home() {
         <Sidebar
           section={section}
           setSection={setSection}
-          isCollapsed={isSidebarCollapsed}
+          isCollapsed={
+            isSidebarCollapsed
+          }
           onToggle={() =>
-            setIsSidebarCollapsed((prev) => !prev)
+            setIsSidebarCollapsed(
+              prev => !prev
+            )
           }
         />
 
         <main className="content-area">
 
-          {section === "dashboard" && (
+          {section === "dashboard" &&
             <Dashboard />
-          )}
+          }
 
           {section !== "dashboard" &&
             tabComponents[section] &&
             (() => {
+
               const Component =
-                tabComponents[section];
+                tabComponents[
+                  section
+                ];
 
               return <Component />;
+
             })()
           }
 
@@ -72,6 +95,5 @@ export default function Home() {
       <Footer />
 
     </div>
-
   );
 }
