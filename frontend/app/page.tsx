@@ -7,22 +7,19 @@ import Sidebar from "@/src/components/Sidebar";
 import Footer from "@/src/components/Footer";
 
 import Dashboard from "@/src/components/dashboard/Dashboard";
-
-import {
-  Deputados,
-  PerfilParlamentar
-} from "@/src/tabs";
-
 import Gastos from "@/src/components/gastos/GastosSection";
+import { PerfilParlamentar } from "@/src/tabs";
+import Deputados from "@/src/components/deputados/DeputadosSection";
+
 
 const tabComponents: Record<
   string,
   React.ComponentType
 > = {
 
-  deputados: Deputados,
-
   gastos: Gastos,
+
+  deputados: Deputados,
 
   "perfil-parlamentar":
     PerfilParlamentar,
