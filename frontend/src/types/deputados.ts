@@ -8,11 +8,14 @@ export interface DeputadoResumo {
 
 export interface DeputadoDetalhes {
   deputado_id: number;
-  nome: string;
+  nome_popular: string;
+  nome_civil: string;
   partido: string;
   uf: string;
   sexo: string;
   escolaridade: string;
   situacao: string;
   total_gasto: number;
+  datanascimento: string;
+  foto: string;
 }
