@@ -10,6 +10,8 @@ class DeputadoPerfilResponse(BaseModel):
     escolaridade: str | None = None
     situacao: str | None = None
     total_gasto: float
+    datanascimento: str | None = None
+    foto: str | None = None
 
 
 class DeputadoDespesaResponse(BaseModel):

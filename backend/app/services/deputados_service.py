@@ -87,6 +87,8 @@ class DeputadosService:
                 "uf": row["uf"],
                 "sexo": row["sexo"],
                 "escolaridade": row["escolaridade"],
+                "datanascimento": row["datanascimento"],
+                "foto": row["urlfoto"],
                 "situacao": row["situacao"],
                 "total_gasto": row["total_gasto"]
             }

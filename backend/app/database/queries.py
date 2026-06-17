@@ -117,6 +117,7 @@ DEPUTADO_PERFIL_QUERY = """
 SELECT
     d.deputado_id,
     d.ultimostatus_nome AS nome,
+    d.nomecivil AS nome_civil,
     d.siglapartido AS partido,
     d.siglauf AS uf,
     d.sexo,
