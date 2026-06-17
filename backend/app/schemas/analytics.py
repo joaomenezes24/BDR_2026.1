@@ -26,3 +26,7 @@ class EscolaridadeGastosResponse(BaseModel):
 class WordCloudResponse(BaseModel):
     text: str
     value: int
+
+class PartidoResponse(BaseModel):
+    partido: str
+    qtd_total: int

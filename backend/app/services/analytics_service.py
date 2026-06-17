@@ -1,6 +1,7 @@
 from app.database.connection import get_connection
 from app.database.queries import (
     OVERVIEW_QUERY,
+    PARTIDOS_QUERY,
     TEMAS_QUERY,
     ESCOLARIDADE_QUERY,
     ESCOLARIDADE_GASTOS_QUERY,
@@ -117,6 +118,29 @@ class AnalyticsService:
                 {
                     "text": row["text"],
                     "value": row["value"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
+
+    @staticmethod
+    def get_partidos():
+
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(PARTIDOS_QUERY)
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "partido": row["partido"],
+                    "qtd_total": row["qtd_total"]
                 }
                 for row in rows
             ]

@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DB_PATH = BASE_DIR / "../dados/camara.db"
+DB_PATH = BASE_DIR / "dados" / "camara.db"
 
 
 def get_connection():

@@ -7,7 +7,8 @@ from app.schemas.analytics import (
     TemaResponse,
     EscolaridadeResponse,
     EscolaridadeGastosResponse,
-    WordCloudResponse
+    WordCloudResponse,
+    PartidoResponse
 )
 
 router = APIRouter(
@@ -51,3 +52,10 @@ def get_escolaridade_gastos():
 )
 def get_wordcloud():
     return AnalyticsService.get_wordcloud()
+
+@router.get(
+    "/partidos",
+    response_model=list[PartidoResponse]
+)
+def get_partidos():
+    return AnalyticsService.get_partidos()

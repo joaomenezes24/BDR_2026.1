@@ -26,16 +26,16 @@ export default function OverviewCards() {
         <h3>Despesas</h3>
         <div className={styles.value}>
           {typeof overview.total_despesas === "number"
-            ? `${(overview.total_despesas / 1000).toFixed(0)}K`
+            ? `${(overview.total_despesas / 1000000).toFixed(0)}M`
             : overview.total_despesas}
         </div>
-        <div className={styles.description}>Despesas registradas</div>
+        <div className={styles.description}>Em despesas registradas</div>
       </div>
 
       <div className={styles.overviewCard}>
         <h3>Proposições</h3>
         <div className={styles.value}>{overview.total_proposicoes}</div>
-        <div className={styles.description}>Leis propostas</div>
+        <div className={styles.description}>Propostas realizadas</div>
       </div>
 
       <div className={styles.overviewCard}>

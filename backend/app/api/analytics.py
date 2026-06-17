@@ -8,6 +8,9 @@ def overview():
 def temas():
     return AnalyticsService.get_temas()
 
+def partidos():
+    return AnalyticsService.get_partidos()
+
 def escolaridade():
     return AnalyticsService.get_escolaridade()
 
