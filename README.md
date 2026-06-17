@@ -1,4 +1,4 @@
-# DOGMA - Deputados Ordenados Por Gastos - Metric Analytics
+# PROEZA - de Olho na Câmara
 
 Aplicação web de análise de dados da Câmara dos Deputados desenvolvida para a disciplina de Banco de Dados Relacionais, 2026.1.
 
@@ -121,6 +121,7 @@ GET /gastos/categorias
 ### Deputados
 
 ```http
+GET /deputados
 GET /deputados/{id}
 GET /deputados/{id}/despesas
 ```

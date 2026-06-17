@@ -429,3 +429,49 @@ a:hover { color: var(--primary-light); text-decoration: underline; }
 
 .fade-in { animation: fadeIn 0.4s ease-out; }
 .slide-in-left { animation: slideInLeft 0.4s ease-out; }
+
+.deputados-container {
+  display: flex;
+  gap: 2rem;
+
+  height: calc(100vh - 250px);
+}
+
+.deputados-lista {
+  flex: 2;
+
+  overflow-y: auto;
+
+  background: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+
+  padding: 1rem;
+}
+
+.deputado-detalhes {
+  flex: 1;
+
+  position: sticky;
+  top: 1rem;
+
+  align-self: flex-start;
+
+  background: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+
+  padding: 1.5rem;
+
+  min-height: 300px;
+}
+
+.deputado-row {
+  cursor: pointer;
+}
+
+.deputado-row:hover {
+  background: #f3f4f6;
+}

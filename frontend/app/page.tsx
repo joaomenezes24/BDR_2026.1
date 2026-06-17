@@ -7,25 +7,37 @@ import Sidebar from "@/src/components/Sidebar";
 import Footer from "@/src/components/Footer";
 
 import Dashboard from "@/src/components/dashboard/Dashboard";
+import Gastos from "@/src/components/gastos/GastosSection";
+import { PerfilParlamentar } from "@/src/tabs";
+import Deputados from "@/src/components/deputados/DeputadosSection";
 
-import {
-  Deputados,
-  PerfilParlamentar
-} from "@/src/tabs";
 
-const tabComponents: Record<string, React.ComponentType> = {
+const tabComponents: Record<
+  string,
+  React.ComponentType
+> = {
+
+  gastos: Gastos,
+
   deputados: Deputados,
-  "perfil-parlamentar": PerfilParlamentar,
+
+  "perfil-parlamentar":
+    PerfilParlamentar,
 };
 
 export default function Home() {
 
   const [section, setSection] =
     useState("dashboard");
-  const [isExpanded, setIsExpanded] =
+
+  const [isExpanded,
+    setIsExpanded] =
     useState(false);
-  const [isSidebarCollapsed, setIsSidebarCollapsed] =
-    useState(false);
+
+  const [
+    isSidebarCollapsed,
+    setIsSidebarCollapsed
+  ] = useState(false);
 
   return (
 
@@ -34,7 +46,7 @@ export default function Home() {
       <Header
         isExpanded={isExpanded}
         onToggle={() =>
-          setIsExpanded((prev) => !prev)
+          setIsExpanded(prev => !prev)
         }
       />
 
@@ -43,25 +55,33 @@ export default function Home() {
         <Sidebar
           section={section}
           setSection={setSection}
-          isCollapsed={isSidebarCollapsed}
+          isCollapsed={
+            isSidebarCollapsed
+          }
           onToggle={() =>
-            setIsSidebarCollapsed((prev) => !prev)
+            setIsSidebarCollapsed(
+              prev => !prev
+            )
           }
         />
 
         <main className="content-area">
 
-          {section === "dashboard" && (
+          {section === "dashboard" &&
             <Dashboard />
-          )}
+          }
 
           {section !== "dashboard" &&
             tabComponents[section] &&
             (() => {
+
               const Component =
-                tabComponents[section];
+                tabComponents[
+                  section
+                ];
 
               return <Component />;
+
             })()
           }
 
@@ -72,6 +92,5 @@ export default function Home() {
       <Footer />
 
     </div>
-
   );
 }
