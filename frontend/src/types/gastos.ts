@@ -4,6 +4,8 @@ export interface RankingGastos {
   partido: string;
   uf: string;
   total_gasto: number;
+  ano_minimo: number;
+  ano_maximo: number;
 }
 
 export interface DespesaDeputado {

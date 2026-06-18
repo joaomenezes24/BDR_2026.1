@@ -2,6 +2,7 @@ from pydantic import BaseModel
 
 
 class GastoDeputadoResponse(BaseModel):
+    deputado_id: int
     deputado: str
     partido: str | None = None
     uf: str | None = None

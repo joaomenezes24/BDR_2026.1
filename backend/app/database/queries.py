@@ -68,6 +68,7 @@ ORDER BY value DESC
 
 RANKING_GASTOS_QUERY = """
 SELECT
+    d.deputado_id,
     d.ultimostatus_nome AS deputado,
     d.siglapartido AS partido,
     d.siglauf AS uf,

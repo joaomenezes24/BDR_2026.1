@@ -20,6 +20,7 @@ class GastosService:
 
             return [
                 {
+                    "deputado_id": row["deputado_id"],
                     "deputado": row["deputado"],
                     "partido": row["partido"],
                     "uf": row["uf"],
