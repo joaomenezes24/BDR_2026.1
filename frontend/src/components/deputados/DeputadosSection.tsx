@@ -3,14 +3,24 @@
 import { useEffect, useState } from "react";
 import { deputadosService } from "@/src/services/deputadosService";
 import { DeputadoResumo, DeputadoDetalhes } from "@/src/types/deputados";
+import WordCloudTemas from "@/src/components/deputados/WordcloudProposicoesTemas";
+
+// Paleta de cores (Aproveitada para colorir as palavras da nuvem)
+const CORES_GRAFICO = [
+  "#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#8884d8",
+  "#82ca9d", "#ffc658", "#8dd1e1", "#a4de6c", "#d0ed57",
+  "#1f4e79", "#d97706", "#10b981", "#ef4444", "#9467bd"
+];
 
 export default function Deputados() {
   const [deputados, setDeputados] = useState<DeputadoResumo[]>([]);
   const [selecionado, setSelecionado] = useState<DeputadoDetalhes | null>(null);
+  
+  const [dadosProposicoes, setDadosProposicoes] = useState<any | null>(null);
+  
   const [loading, setLoading] = useState(true);
   const [loadingPerfil, setLoadingPerfil] = useState(false);
 
-  // Estados dos filtros
   const [busca, setBusca] = useState("");
   const [filtroPartido, setFiltroPartido] = useState("");
   const [filtroUF, setFiltroUF] = useState("");
@@ -24,9 +34,19 @@ export default function Deputados() {
 
   async function abrirDeputado(deputadoId: number) {
     setLoadingPerfil(true);
+    setSelecionado(null);
+    setDadosProposicoes(null); 
+
     try {
-      const dados = await deputadosService.getDeputado(deputadoId);
+      const [dados, proposicoes] = await Promise.all([
+        deputadosService.getDeputado(deputadoId),
+        deputadosService.getTemasDeputado(deputadoId) 
+      ]);
+      
       setSelecionado(dados);
+      setDadosProposicoes(proposicoes);
+    } catch (error) {
+      console.error("Erro ao carregar os dados do deputado:", error);
     } finally {
       setLoadingPerfil(false);
     }
@@ -49,6 +69,12 @@ export default function Deputados() {
     return matchNome && matchPartido && matchUF;
   });
 
+  // Funções de configuração da WordCloud
+  // Como os valores (1, 2, 5, 7) são pequenos, multiplicamos para gerar um tamanho de pixel legível
+  const calcularTamanhoFonteNuvem = (word: any) => 14 + (word.value * 6);
+  // Algumas palavras na horizontal, outras na vertical (90 graus)
+  const rotacionarPalavra = () => 0;
+
   if (loading) {
     return <p style={{ padding: "20px", fontFamily: "sans-serif" }}>Carregando deputados...</p>;
   }
@@ -63,7 +89,7 @@ export default function Deputados() {
       alignItems: "flex-start" 
     }}>
       
-      {/* SEÇÃO DA LISTA / TABELA */}
+      {/* SEÇÃO ESQUERDA: LISTA / TABELA */}
       <div className="deputados-lista" style={{ 
         flex: "1 1 550px", 
         display: "flex", 
@@ -73,7 +99,6 @@ export default function Deputados() {
           Painel de Deputados
         </h1>
 
-        {/* ÁREA DE FILTROS */}
         <div style={{ display: "flex", gap: "10px", marginBottom: "20px", flexWrap: "wrap" }}>
           <input
             type="text"
@@ -106,10 +131,9 @@ export default function Deputados() {
           </select>
         </div>
 
-        {/* CONTÊINER DA TABELA*/}
         <div style={{ 
           maxHeight: "600px", 
-          overflowY: "auto", // Scroll exclusivo da tabela
+          overflowY: "auto", 
           border: "1px solid #eaeaea", 
           borderRadius: "8px",
           boxShadow: "0 2px 8px rgba(0,0,0,0.05)"
@@ -153,11 +177,11 @@ export default function Deputados() {
         </p>
       </div>
 
-      {/* SEÇÃO DO CARD DE PERFIL */}
+      {/* SEÇÃO DIREITA: CARD DE PERFIL */}
       <div className="deputado-detalhes" style={{ 
         flex: "1 1 350px", 
         minWidth: "300px",
-        position: "sticky", // Mantém o card fixo se a página inteira rolar
+        position: "sticky", 
         top: "20px"
       }}>
         <div style={{
@@ -176,12 +200,11 @@ export default function Deputados() {
           )}
 
           {loadingPerfil && (
-            <p style={{ color: "#666", margin: "40px 0" }}>Carregando perfil do deputado...</p>
+            <p style={{ color: "#666", margin: "40px 0" }}>Carregando dados do deputado...</p>
           )}
 
           {selecionado && !loadingPerfil && (
             <>
-              {/* FOTO COM DEGRADÊ */}
               <div style={{
                 background: "linear-gradient(163deg, rgba(0, 229, 255, 1) 0%, rgba(59, 148, 75, 1) 61%, rgba(255, 255, 10, 1) 100%)",
                 padding: "6px",
@@ -206,7 +229,6 @@ export default function Deputados() {
                 />
               </div>
 
-              {/* TÍTULO E SUBTÍTULO DO CARD */}
               <h2 style={{ margin: "0 0 8px 0", fontSize: "1.5rem", color: "#1f2937" }}>
                 {selecionado.nome_popular}
               </h2>
@@ -222,7 +244,6 @@ export default function Deputados() {
                 {selecionado.partido} - {selecionado.uf}
               </span>
 
-              {/* GRID DE INFORMAÇÕES */}
               <div style={{ 
                 width: "100%", 
                 textAlign: "left", 
@@ -262,23 +283,69 @@ export default function Deputados() {
                   </div>
                 </div>
 
-                <div style={{ 
-                  backgroundColor: "#f8fafc", 
-                  padding: "16px", 
-                  borderRadius: "8px", 
-                  marginTop: "8px",
-                  border: "1px solid #e2e8f0" 
-                }}>
-                  <strong style={{ color: "#111827", display: "block", fontSize: "0.85rem", textTransform: "uppercase" }}>Total Gasto</strong>
-                  <span style={{ fontSize: "1.25rem", fontWeight: "bold", color: "#dc2626" }}>
-                    R$ {selecionado.total_gasto.toLocaleString("pt-BR", { minimumFractionDigits: 2 })}
-                  </span>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", marginTop: "8px" }}>
+                  <div style={{ 
+                    backgroundColor: "#f8fafc", 
+                    padding: "16px", 
+                    borderRadius: "8px", 
+                    border: "1px solid #e2e8f0",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center"
+                  }}>
+                    <strong style={{ color: "#111827", display: "block", fontSize: "0.75rem", textTransform: "uppercase", marginBottom: "4px" }}>Total Gasto</strong>
+                    <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#dc2626" }}>
+                      R$ {selecionado.total_gasto?.toLocaleString("pt-BR", { minimumFractionDigits: 2 }) || "0,00"}
+                    </span>
+                  </div>
+
+                  <div style={{ 
+                    backgroundColor: "#f0fdf4", 
+                    padding: "16px", 
+                    borderRadius: "8px", 
+                    border: "1px solid #bbf7d0",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center"
+                  }}>
+                    <strong style={{ color: "#111827", display: "block", fontSize: "0.75rem", textTransform: "uppercase", marginBottom: "4px" }}>Proposições</strong>
+                    <span style={{ fontSize: "1.2rem", fontWeight: "bold", color: "#16a34a" }}>
+                      {dadosProposicoes?.qtd_total_proposicoes || 0}
+                    </span>
+                  </div>
                 </div>
               </div>
             </>
           )}
         </div>
       </div>
+
+      {/* SEÇÃO INFERIOR: TEMAS DE ATUAÇÃO (WORDCLOUD MODULARIZADA) */}
+      {/* SEÇÃO INFERIOR: TEMAS DE ATUAÇÃO */}
+      {selecionado && dadosProposicoes && dadosProposicoes.proposicoes_tema && dadosProposicoes.proposicoes_tema.length > 0 && !loadingPerfil && (
+        <div style={{
+          width: "100%",
+          backgroundColor: "#fff",
+          borderRadius: "12px",
+          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+          padding: "24px",
+          border: "1px solid #eaeaea",
+        }}>
+          <h3 style={{ 
+            margin: "0 0 20px 0", 
+            fontSize: "1.2rem", 
+            color: "#1f2937", 
+            textAlign: "center",
+          }}>
+            Temas de Atuação do Parlamentar {selecionado.nome_popular}
+          </h3>
+          
+          {/* Chama o componente limpo e sem travas de altura! */}
+          <WordCloudTemas data={dadosProposicoes.proposicoes_tema} />
+          
+        </div>
+      )}
+
     </div>
   );
 }

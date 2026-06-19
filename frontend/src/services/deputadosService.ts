@@ -19,6 +19,14 @@ export const deputadosService = {
     return apiFetch<DeputadoDetalhes>(
       `/deputados/${deputadoId}`
     );
+  },
+
+  getTemasDeputado(
+    deputadoId: number
+  ) {
+    return apiFetch<string[]>(
+      `/deputados/${deputadoId}/wordcloud-temas`
+    );
   }
 
 };

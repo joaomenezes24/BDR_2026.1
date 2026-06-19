@@ -34,7 +34,7 @@ def despesas(id_deputado: int):
         id_deputado
     )
 
-@router.get("/{id_deputado}/worldcloud-temas")
+@router.get("/{id_deputado}/wordcloud-temas")
 def proposicoes_temas(id_deputado: int):
     return DeputadosService.proposicoes_temas_deputado(
         id_deputado
