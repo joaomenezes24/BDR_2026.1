@@ -433,8 +433,6 @@ a:hover { color: var(--primary-light); text-decoration: underline; }
 .deputados-container {
   display: flex;
   gap: 2rem;
-
-  height: calc(100vh - 250px);
 }
 
 .deputados-lista {
