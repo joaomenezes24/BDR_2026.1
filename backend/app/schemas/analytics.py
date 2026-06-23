@@ -42,5 +42,5 @@ class EscolaridadeProposicoesResponse(BaseModel):
 
 class EscolaridadeEventosResponse(BaseModel):
     escolaridade: str | None = None
-    total_deputados: int
-    media_presenca: float
+    total_deputados: int | None = None
+    media_presenca: float | None = None

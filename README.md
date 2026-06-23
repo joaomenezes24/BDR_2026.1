@@ -55,6 +55,16 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
+em caso de erro, considere:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+```bash
+python -m pip install requests
+```
+
 Execute a API:
 
 ```bash
