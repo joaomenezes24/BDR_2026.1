@@ -17,6 +17,11 @@ export default function Dashboard() {
         <TemasTable />
         <EscolaridadeTable />
       </div>
+
+      <div className={styles.dashboard}>
+        <h1>Presença em eventos por escolaridade</h1>
+        <EscolaridadeEventosChart />
+      </div>
     </div>
   );
 }
