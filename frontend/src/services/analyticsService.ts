@@ -6,7 +6,8 @@ import {
   Escolaridade,
   WordCloudItem,
   EscolaridadeEventos,
-  EscolaridadeFidelidade
+  EscolaridadeFidelidade,
+  EscolaridadeProposicoes
 } from "../types/analytics";
 
 export const analyticsService = {
@@ -44,6 +45,12 @@ export const analyticsService = {
   getEscolaridadeFidelidade() {
     return apiFetch<EscolaridadeFidelidade[]>(
       "/analytics/escolaridade-fidelidade"
+    )
+  },
+
+  getEscolaridadeProposicoes() {
+    return apiFetch<EscolaridadeProposicoes[]>(
+      "/analytics/escolaridade-proposicoes"
     )
   }
 };

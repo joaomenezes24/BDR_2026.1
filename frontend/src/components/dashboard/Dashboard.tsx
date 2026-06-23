@@ -5,6 +5,7 @@ import TemasTable from "./TemasTable";
 import EscolaridadeTable from "./EscolaridadeTable";
 import EscolaridadeEventosChart from "./EscolaridadeEventosChart";
 import EscolaridadeFidelidadeChart from "./EscolaridadeFidelidadeChart";
+import EscolaridadeProposicoesChart from "./EscolaridadeProposicoesChart";
 
 export default function Dashboard() {
   return (
@@ -28,6 +29,11 @@ export default function Dashboard() {
       <div className={styles.dashboard}>
         <h1>Fidelidade Partidaria por Escolaridade</h1>
         <EscolaridadeFidelidadeChart />
+      </div>
+
+      <div className={styles.dashboard}>
+        <h1>Autoria de Proposições por Escolaridade</h1>
+        <EscolaridadeProposicoesChart />
       </div>
     </div>
   );

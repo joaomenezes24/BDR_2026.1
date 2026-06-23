@@ -16,22 +16,22 @@ import { analyticsService } from "@/src/services/analyticsService";
 function CustomTooltip({ active, payload, label }: any) {
   if (!active || !payload || !payload.length) return null;
 
-  const { fidelidade_media, total_deputados } = payload[0].payload;
+  const { media_proposicoes, total_deputados } = payload[0].payload;
 
   return (
     <div className={styles.tooltip}>
       <p><strong>{label}</strong></p>
-      <p>Média de fidelidade partidária: {fidelidade_media}</p>
+      <p>Média de proposições: {media_proposicoes}</p>
       <p>Total de deputados: {total_deputados}</p>
     </div>
   );
 }
 
-export default function EscolaridadeFidelidadeChart() {
+export default function EscolaridadeProposicoesChart() {
   const [dados, setDados] = useState<any[]>([]);
 
   useEffect(() => {
-    analyticsService.getEscolaridadeFidelidade().then(setDados);
+    analyticsService.getEscolaridadeProposicoes().then(setDados);
   }, []);
 
   return (
@@ -46,7 +46,7 @@ export default function EscolaridadeFidelidadeChart() {
             <XAxis dataKey="escolaridade" />
             <YAxis />
             <Tooltip content={<CustomTooltip />} />
-            <Bar dataKey="fidelidade_media" fill="#4f81bd" />
+            <Bar dataKey="media_proposicoes" fill="#4f81bd" />
           </BarChart>
         </ResponsiveContainer>
       </div>
