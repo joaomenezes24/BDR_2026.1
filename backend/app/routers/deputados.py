@@ -39,3 +39,9 @@ def proposicoes_temas(id_deputado: int):
     return DeputadosService.proposicoes_temas_deputado(
         id_deputado
     )
+
+@router.get("/{id_deputado}/alinhamento")
+def alinhamento_dep(id_deputado: int):
+    return DeputadosService.alinhamento_deputado(
+        id_deputado
+    )

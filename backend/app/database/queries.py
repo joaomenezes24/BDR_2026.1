@@ -192,3 +192,65 @@ GROUP BY
 ORDER BY 
     quantidade_proposicoes DESC;
 """
+
+ESCOLARIDADE_FIDELIDADE_QUERY = """
+SELECT
+    d.escolaridade,
+    COUNT(DISTINCT d.deputado_id) AS quantidade_deputados,
+    ROUND(AVG(v.alinhado) * 100, 2) AS fidelidade_media
+FROM Deputados d
+LEFT JOIN VotacoesVotos v
+    ON d.deputado_id = v.deputado_id
+GROUP BY d.escolaridade
+ORDER BY fidelidade_media DESC;
+"""
+
+DEPUTADO_ALINHAMENTO_QUERY = """
+SELECT
+    deputado_nome,
+
+    SUM(CASE WHEN alinhado = 1 THEN 1 ELSE 0 END) AS votos_alinhados,
+
+    SUM(CASE WHEN alinhado = 0 THEN 1 ELSE 0 END) AS votos_desalinhados,
+
+    SUM(CASE WHEN alinhado IS NULL THEN 1 ELSE 0 END) AS votos_sem_direcionamento,
+
+    COUNT(*) AS total_votos
+
+FROM VotacoesVotos
+WHERE deputado_id = ?
+GROUP BY deputado_nome;
+"""
+
+ESCOLARIDADE_PROPOSICOES_QUERY = """
+SELECT
+    d.escolaridade,
+    COUNT(DISTINCT d.deputado_id)          AS total_deputados,
+    COUNT(pa.idproposicao)        AS total_proposicoes,
+    ROUND(
+        COUNT(pa.idproposicao) * 1.0 / COUNT(DISTINCT d.deputado_id),
+        2
+    )                             AS media_proposicoes
+  FROM deputados d
+  LEFT JOIN  ProposicoesAutores pa ON d.deputado_id = pa.iddeputadoautor
+  GROUP BY d.escolaridade
+  ORDER BY media_proposicoes DESC;
+"""
+
+ESCOLARIDADE_EVENTOS_QUERY = """
+SELECT
+    d.escolaridade,
+    COUNT(DISTINCT p.idevento) AS total_presencas,
+    COUNT(DISTINCT d.deputado_id) AS total_deputados,
+    ROUND(
+        CAST(COUNT(DISTINCT p.idevento) AS REAL)
+        / COUNT(DISTINCT d.deputado_id),
+        2
+    ) AS media_presencas
+FROM Deputados d
+LEFT JOIN EventosPresencaDeputados p
+    ON d.deputado_id = p.iddeputado
+WHERE d.escolaridade IS NOT NULL
+GROUP BY d.escolaridade
+ORDER BY media_presencas DESC;
+"""

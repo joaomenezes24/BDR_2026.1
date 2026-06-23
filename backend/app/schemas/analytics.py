@@ -30,3 +30,17 @@ class WordCloudResponse(BaseModel):
 class PartidoResponse(BaseModel):
     partido: str
     qtd_total: int
+
+class EscolaridadeFidelidadeResponse(BaseModel):
+    escolaridade: str | None = None
+    fidelidade_media: float
+
+class EscolaridadeProposicoesResponse(BaseModel):
+    escolaridade: str | None = None
+    total_deputados: int
+    media_proposicoes: float
+
+class EscolaridadeEventosResponse(BaseModel):
+    escolaridade: str | None = None
+    total_deputados: int
+    media_presenca: float

@@ -5,7 +5,10 @@ from app.database.queries import (
     TEMAS_QUERY,
     ESCOLARIDADE_QUERY,
     ESCOLARIDADE_GASTOS_QUERY,
-    WORDCLOUD_QUERY
+    WORDCLOUD_QUERY,
+    ESCOLARIDADE_FIDELIDADE_QUERY,
+    ESCOLARIDADE_PROPOSICOES_QUERY,
+    ESCOLARIDADE_EVENTOS_QUERY
 )
 
 class AnalyticsService:
@@ -103,6 +106,30 @@ class AnalyticsService:
             conn.close()
 
     @staticmethod
+    def get_escolaridade_fidelidade():
+
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(ESCOLARIDADE_FIDELIDADE_QUERY)
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "escolaridade": row["escolaridade"],
+                    "fidelidade_media": row["fidelidade_media"],
+                    "quantidade_deputados": row["quantidade_deputados"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
+
+    @staticmethod
     def get_wordcloud():
 
         conn = get_connection()
@@ -141,6 +168,54 @@ class AnalyticsService:
                 {
                     "partido": row["partido"],
                     "qtd_total": row["qtd_total"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
+
+    @staticmethod
+    def get_escolaridade_proposicoes():
+
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(ESCOLARIDADE_PROPOSICOES_QUERY)
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "escolaridade": row["escolaridade"],
+                    "total_deputados": row["total_deputados"],
+                    "media_proposicoes": row["media_proposicoes"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
+
+    @staticmethod
+    def get_escolaridade_eventos():
+
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(ESCOLARIDADE_EVENTOS_QUERY)
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "escolaridade": row["escolaridade"],
+                    "total_deputados": row["total_deputados"],
+                    "media_presencas": row["media_presencas"]
                 }
                 for row in rows
             ]

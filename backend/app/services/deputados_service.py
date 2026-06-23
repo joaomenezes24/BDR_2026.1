@@ -3,7 +3,8 @@ from app.database.queries import (
     LISTAR_DEPUTADOS_QUERY,
     DEPUTADO_PERFIL_QUERY,
     DEPUTADO_DESPESAS_QUERY,
-    DEPUTADO_PROPOSICOES_TEMAS_QUERY
+    DEPUTADO_PROPOSICOES_TEMAS_QUERY,
+    DEPUTADO_ALINHAMENTO_QUERY
 )
 
 
@@ -176,3 +177,32 @@ class DeputadosService:
 
         finally:
             conn.close()
+        
+    @staticmethod
+    def alinhamento_deputado(deputado_id: int):
+        conn = get_connection()
+
+        try:
+            cursor = conn.cursor()
+
+            cursor.execute(
+                DEPUTADO_ALINHAMENTO_QUERY,
+                (deputado_id,)
+            )
+
+            rows = cursor.fetchall()
+
+            return [
+                {
+                    "votos_alinhados": row["votos_alinhados"],
+                    "votos_desalinhados": row["votos_desalinhados"],
+                    "votos_sem_direcionamento": row["votos_sem_direcionamento"],
+                    "total_votos": row["total_votos"]
+                }
+                for row in rows
+            ]
+
+        finally:
+            conn.close()
+
+

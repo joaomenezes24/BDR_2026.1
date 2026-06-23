@@ -8,7 +8,10 @@ from app.schemas.analytics import (
     EscolaridadeResponse,
     EscolaridadeGastosResponse,
     WordCloudResponse,
-    PartidoResponse
+    PartidoResponse,
+    EscolaridadeFidelidadeResponse,
+    EscolaridadeProposicoesResponse,
+    EscolaridadeEventosResponse
 )
 
 router = APIRouter(
@@ -59,3 +62,24 @@ def get_wordcloud():
 )
 def get_partidos():
     return AnalyticsService.get_partidos()
+
+@router.get(
+    "/escolaridade-fidelidade",
+    response_model=list[EscolaridadeFidelidadeResponse]
+)
+def get_escolaridade_proposicoes():
+    return AnalyticsService.get_escolaridade_fidelidade()
+
+@router.get(
+    "/escolaridade-proposicoes",
+    response_model=list[EscolaridadeProposicoesResponse]
+)
+def get_escolaridade_proposicoes():
+    return AnalyticsService.get_escolaridade_proposicoes()
+
+@router.get(
+    "/escolaridade-eventos",
+    response_model=list[EscolaridadeEventosResponse]
+)
+def get_escolaridade_eventos():
+    return AnalyticsService.get_escolaridade_eventos()

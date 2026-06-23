@@ -18,3 +18,8 @@ class DeputadoDespesaResponse(BaseModel):
     categoria: str
     valor_total: float
     quantidade: int
+
+class DeputadoAlinhamentoResponse(BaseModel):
+    votos_alinhados: int | None = None
+    votos_desalinhados: int | None = None
+    votos_sem_direcionamento: int | None = None
