@@ -254,3 +254,38 @@ WHERE d.escolaridade IS NOT NULL
 GROUP BY d.escolaridade
 ORDER BY media_presencas DESC;
 """
+#proposicoes por tema
+PROPOSICOES_TEMAS_QUERY = """
+SELECT 
+    vp.proposicao_siglatipo AS siglatipo, 
+    vp.proposicao_numero AS numero, 
+    vp.proposicao_ano AS ano, 
+    vp.proposicao_ementa AS ementa,
+    vp.proposicao_id AS proposicao_id,
+    vp.idvotacao AS idvotacao,
+    vp.proposicao_uri AS uri 
+FROM 
+    ProposicoesTemas pt
+JOIN 
+    VotacoesProposicoes vp ON pt.uriproposicao = vp.proposicao_uri
+WHERE 
+    pt.tema = ? 
+ORDER BY 
+    vp.proposicao_ano DESC, vp.proposicao_numero DESC
+LIMIT ? OFFSET ?; -- paginacao"""
+
+PROPOSICOES_TEMAS_VOTOS = """
+SELECT 
+    vv.deputado_nome, 
+    vv.deputado_siglapartido, 
+    vv.deputado_siglauf, 
+    vv.voto 
+FROM 
+    VotacoesProposicoes vp
+JOIN 
+    VotacoesVotos vv ON vp.idvotacao = vv.idvotacao
+WHERE 
+    vp.proposicao_id = ?
+ORDER BY 
+    vv.deputado_nome ASC;"""
+
