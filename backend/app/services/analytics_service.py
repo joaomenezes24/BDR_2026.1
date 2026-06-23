@@ -120,7 +120,7 @@ class AnalyticsService:
             return [
                 {
                     "escolaridade": row["escolaridade"],
-                    "fidelidade_media": row["fidelidade_media"],
+                    "media_fidelidade": row["fidelidade_media"],
                     "quantidade_deputados": row["quantidade_deputados"]
                 }
                 for row in rows
