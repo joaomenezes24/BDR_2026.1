@@ -3,6 +3,7 @@ import OverviewCards from "./OverviewCards";
 import WordCloud from "./WordCloud";
 import TemasTable from "./TemasTable";
 import EscolaridadeTable from "./EscolaridadeTable";
+import EscolaridadeEventosChart from "./EscolaridadeEventosChart";
 
 export default function Dashboard() {
   return (
