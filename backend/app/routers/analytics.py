@@ -67,7 +67,7 @@ def get_partidos():
     "/escolaridade-fidelidade",
     response_model=list[EscolaridadeFidelidadeResponse]
 )
-def get_escolaridade_proposicoes():
+def get_escolaridade_fidelidade():
     return AnalyticsService.get_escolaridade_fidelidade()
 
 @router.get(
