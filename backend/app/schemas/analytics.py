@@ -33,7 +33,7 @@ class PartidoResponse(BaseModel):
 
 class EscolaridadeFidelidadeResponse(BaseModel):
     escolaridade: str | None = None
-    fidelidade_media: float
+    fidelidade_media: float | None = None
 
 class EscolaridadeProposicoesResponse(BaseModel):
     escolaridade: str | None = None
