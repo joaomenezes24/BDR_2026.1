@@ -1,0 +1,97 @@
+.proposicoes-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografia padrão de sistemas */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.controles-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.box-pilula {
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 4px; 
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #374151;
+  transition: border-color 0.2s;
+}
+
+select.box-pilula {
+  min-width: 250px;
+  cursor: pointer;
+}
+
+.quadro-grosso {
+  border: 1px solid #e5e7eb; /* Borda fina e discreta */
+  border-radius: 4px;
+  padding: 24px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: none; /* Painéis corporativos costumam usar menos sombra */
+}
+
+.titulo-prop { 
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #1f2937;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.ementa-prop { 
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.link-prop { 
+  background-color: #1e3a8a; /* Azul marinho, combinando com a sidebar do painel */
+  color: white !important;
+  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Ajuste da Grid para o gráfico */
+.conteudo-grid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+/* Botões */
+button.box-pilula {
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+}
+
+button.box-pilula:hover:not(:disabled) {
+  background-color: #e5e7eb;
+}
+
+.filtro-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;          /* Aumentei o gap para espaçar os botões */
+  margin-bottom: 60px; /* Aumentei a margem inferior para afastar do gráfico */
+}

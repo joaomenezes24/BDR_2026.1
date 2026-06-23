@@ -270,12 +270,18 @@ JOIN
     VotacoesProposicoes vp ON pt.uriproposicao = vp.proposicao_uri
 WHERE 
     pt.tema = ? 
+    AND EXISTS (
+        SELECT 1 
+        FROM VotacoesVotos vv 
+        WHERE vv.idvotacao = vp.idvotacao
+    )
 ORDER BY 
     vp.proposicao_ano DESC, vp.proposicao_numero DESC
-LIMIT ? OFFSET ?; -- paginacao"""
+LIMIT ? OFFSET ?; -- paginação"""
 
 PROPOSICOES_TEMAS_VOTOS = """
 SELECT 
+    vv.deputado_id,
     vv.deputado_nome, 
     vv.deputado_siglapartido, 
     vv.deputado_siglauf, 

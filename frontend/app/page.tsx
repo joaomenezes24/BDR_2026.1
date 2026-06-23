@@ -10,6 +10,7 @@ import Dashboard from "@/src/components/dashboard/Dashboard";
 import Gastos from "@/src/components/gastos/GastosSection";
 import { PerfilParlamentar } from "@/src/tabs";
 import Deputados from "@/src/components/deputados/DeputadosSection";
+import ProposicoesTab from "@/src/components/proposicoes/ProposicoesTab";
 
 
 const tabComponents: Record<
@@ -23,6 +24,8 @@ const tabComponents: Record<
 
   "perfil-parlamentar":
     PerfilParlamentar,
+
+  proposicoes: ProposicoesTab
 };
 
 export default function Home() {

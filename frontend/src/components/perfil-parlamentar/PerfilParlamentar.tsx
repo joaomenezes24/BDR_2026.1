@@ -1,61 +1,53 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import './PerfilParlamentar.css';
 import GraficoCamaraInterativo from './GraficoCamaraInterativo';
 
 export default function PerfilParlamentar() {
   const [criterio, setCriterio] = useState('siglaPartido');
   const [dadosDeputados, setDadosDeputados] = useState(null);
   const [carregando, setCarregando] = useState(true);
-  const [erro, setErro] = useState<string | null>(null);
 
   useEffect(() => {
-    const carregarDados = async () => {
-      try {
-        const resposta = await fetch('/mockdados/deputados_plenario_preciso.json');
-        if (!resposta.ok) throw new Error('Erro ao carregar dados');
-        const dados = await resposta.json();
-        setDadosDeputados(dados);
-      } catch (err: unknown) {
-        const mensagem = err instanceof Error ? err.message : String(err);
-        setErro(mensagem);
-      } finally {
-        setCarregando(false);
-      }
-    };
-
-    carregarDados();
+    fetch('/mockdados/deputados_plenario_preciso.json')
+      .then(r => r.json())
+      .then(setDadosDeputados)
+      .finally(() => setCarregando(false));
   }, []);
 
-  const estiloBotao = (criterioBotao) => ({
-    padding: '10px 20px',
-    margin: '0 5px',
-    borderRadius: '20px',
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 'bold',
-    backgroundColor: criterio === criterioBotao ? '#b2dfdb' : '#e0f2f1',
-    color: '#004d40'
-  });
+  const filtros = [
+    { id: 'escolaridade', label: 'ESCOLARIDADE' },
+    { id: 'sexo', label: 'SEXO' },
+    { id: 'siglapartido', label: 'PARTIDO' },
+    { id: 'alinhamento_politico', label: 'ESPECTRO POLÍTICO' }
+  ];
 
-  if (carregando) return <div style={{ padding: '40px' }}>Carregando dados...</div>;
-  if (erro) return <div style={{ padding: '40px', color: 'red' }}>Erro: {erro}</div>;
-  if (!dadosDeputados) return <div style={{ padding: '40px' }}>Nenhum dado disponível</div>;
+  if (carregando) return <div className="p-10 text-center">Carregando plenário...</div>;
 
   return (
-    <div style={{ padding: '40px', fontFamily: 'sans-serif' }}>
-      <h1 style={{ textAlign: 'center', textDecoration: 'underline' }}>Perfil do plenário</h1>
+    <div className="perfil-container">
+      <header className="perfil-header">
+        <h1>Raio-X do Plenário</h1>
+        <p>Análise demográfica e política dos deputados em exercício</p>
+      </header>
 
       {/* Menu de Filtros */}
-      <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '10px', marginBottom: '40px' }}>
-        <button style={estiloBotao('escolaridade')} onClick={() => setCriterio('escolaridade')}>ESCOLARIDADE</button>
-        <button style={estiloBotao('sexo')} onClick={() => setCriterio('sexo')}>SEXO</button>
-        <button style={estiloBotao('siglapartido')} onClick={() => setCriterio('siglapartido')}>PARTIDO</button>
-        <button style={estiloBotao('alinhamento_politico')} onClick={() => setCriterio('alinhamento_politico')}>ESPECTRO POLÍTICO</button>
-        {/* <button style={estiloBotao('regiao')} onClick={() => setCriterio('regiao')}>REGIÃO DO BRASIL</button> */}
-      </div>
+      <nav className="filtro-group">
+        {filtros.map(f => (
+          <button 
+            key={f.id}
+            className={`btn-filtro ${criterio === f.id ? 'active' : ''}`}
+            onClick={() => setCriterio(f.id)}
+          >
+            {f.label}
+          </button>
+        ))}
+      </nav>
 
-      {/* Renderiza o Gráfico */}
-      <GraficoCamaraInterativo deputados={dadosDeputados} criterioAtual={criterio} />
+      {/* Renderiza o Gráfico em um Card */}
+      <div className="grafico-wrapper">
+        <GraficoCamaraInterativo deputados={dadosDeputados} criterioAtual={criterio} />
+      </div>
     </div>
   );
 }

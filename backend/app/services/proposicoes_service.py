@@ -83,6 +83,7 @@ class ProposicoesService:
 
             for row in rows:
                 deputado_info = {
+                    "deputado_id": row["deputado_id"],
                     "nome": row["deputado_nome"],
                     "partido": row["deputado_siglapartido"],
                     "uf": row["deputado_siglauf"]

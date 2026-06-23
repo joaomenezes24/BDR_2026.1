@@ -1,0 +1,74 @@
+/* Container básico */
+.resumo-container {
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.resumo-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Os dois cartões lado a lado */
+.resumo-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card-voto {
+  flex: 1; /* Faz os dois cartões dividirem o espaço 50/50 */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+}
+
+.card-sim { background-color: #388e3c; }
+.card-nao { background-color: #d32f2f; }
+
+.card-icone { font-size: 24px; }
+.card-numero { font-size: 32px; font-weight: bold; margin: 5px 0; }
+.card-texto { font-size: 14px; margin: 0; }
+
+/* Textos acima da barra */
+.barra-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.label-sim { color: #388e3c; }
+.label-nao { color: #d32f2f; }
+
+/* Barra de progresso base */
+.barra-track {
+  display: flex;
+  height: 20px;
+  background-color: #ddd; /* Fundo cinza caso não preencha 100% */
+  border-radius: 10px;
+  overflow: hidden; /* Corta as pontas quadradas das barras internas */
+}
+
+/* Preenchimentos da barra */
+.barra-fill-sim, .barra-fill-nao {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px; /* Centraliza o texto verticalmente */
+  padding: 0 10px;
+}
+
+.barra-fill-sim {
+  background-color: #388e3c;
+  text-align: left;
+}
+
+.barra-fill-nao {
+  background-color: #d32f2f;
+  text-align: right;
+}

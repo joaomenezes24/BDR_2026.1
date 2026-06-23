@@ -6,10 +6,10 @@ router = APIRouter(
     tags=["proposicoes"]
 )
 
-@router.get("/proposicoes/tema/{tema}")
+@router.get("/tema/{tema}")
 def proposicaoes_por_tema(tema: str, limit: int, offset: int):
     return ProposicoesService.get_proposicoes_por_tema(tema, limit, offset)
 
-@router.get("/proposicao/votos/{proposicao_id}")
+@router.get("/votos/{proposicao_id}")
 def votos_por_proposicao(proposicao_id: int):
     return ProposicoesService.get_votos_por_proposicao(proposicao_id)
