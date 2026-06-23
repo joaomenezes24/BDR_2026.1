@@ -21,3 +21,10 @@ export interface Escolaridade {
   escolaridade: string;
   qtd_total: number;
 }
+
+export interface EscolaridadeEventos {
+  escolaridade: string;
+  quantidade_deputados: number;
+  media_presenca: number;
+}
+
