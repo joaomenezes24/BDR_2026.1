@@ -37,7 +37,6 @@ export default function EscolaridadeFidelidadeChart() {
   return (
     <div className={styles.tableSection}>
       <div className={styles.sectionHeader}>
-        <h2>Fidelidade Partidária por Escolaridade</h2>
       </div>
 
       <div className={styles.tableContainer}>

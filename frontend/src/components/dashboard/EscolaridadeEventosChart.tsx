@@ -37,7 +37,6 @@ export default function EscolaridadeEventosChart() {
   return (
     <div className={styles.tableSection}>
       <div className={styles.sectionHeader}>
-        <h2>Média de Presença por Escolaridade</h2>
       </div>
 
       <div className={styles.tableContainer}>

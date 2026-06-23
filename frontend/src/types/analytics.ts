@@ -31,5 +31,5 @@ export interface EscolaridadeEventos {
 export interface EscolaridadeFidelidade {
   escolaridade: string;
   quantidade_deputados: number;
-  media_presencas: number;
+  media_fidelidade: number;
 }
