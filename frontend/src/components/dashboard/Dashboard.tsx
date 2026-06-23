@@ -3,6 +3,8 @@ import OverviewCards from "./OverviewCards";
 import WordCloud from "./WordCloud";
 import TemasTable from "./TemasTable";
 import EscolaridadeTable from "./EscolaridadeTable";
+import EscolaridadeEventosChart from "./EscolaridadeEventosChart";
+import EscolaridadeFidelidadeChart from "./EscolaridadeFidelidadeChart";
 
 export default function Dashboard() {
   return (
@@ -21,6 +23,11 @@ export default function Dashboard() {
       <div className={styles.dashboard}>
         <h1>Presença em eventos por escolaridade</h1>
         <EscolaridadeEventosChart />
+      </div>
+
+      <div className={styles.dashboard}>
+        <h1>Fidelidade Partidaria por Escolaridade</h1>
+        <EscolaridadeFidelidadeChart />
       </div>
     </div>
   );
