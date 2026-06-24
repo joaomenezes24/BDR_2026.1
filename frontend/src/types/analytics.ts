@@ -39,3 +39,9 @@ export interface EscolaridadeProposicoes {
   total_deputados:  number;
   media_proposicoes: number;
 }
+
+export interface EscolaridadeGastos {
+  escolaridade: string;
+  media_gasto: number;
+  quantidade_deputados: number;
+}
