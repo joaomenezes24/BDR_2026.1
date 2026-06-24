@@ -36,25 +36,12 @@ ORDER BY qtd_total DESC
 """
 
 ESCOLARIDADE_GASTOS_QUERY = """
-WITH gastos_por_deputado AS (
-    SELECT
-        d.deputado_id,
-        COALESCE(d.escolaridade, 'Não Informado') AS escolaridade,
-        COALESCE(SUM(dp.vlrliquido), 0) AS total_gasto
-    FROM Deputados d
-    LEFT JOIN Despesas dp
-        ON CAST(d.deputado_id AS INTEGER)
-           = CAST(dp.idecadastro AS INTEGER)
-    GROUP BY d.deputado_id
-)
-
 SELECT
     escolaridade,
-    ROUND(AVG(total_gasto), 2) AS media_gasto,
-    COUNT(*) AS quantidade_deputados
-FROM gastos_por_deputado
+    ROUND(AVG(total_gasto), 2) AS gasto_medio
+FROM GastosEscolaridade
 GROUP BY escolaridade
-ORDER BY media_gasto DESC
+ORDER BY gasto_medio DESC;
 """
 
 WORDCLOUD_QUERY = """
@@ -67,36 +54,18 @@ ORDER BY value DESC
 """
 
 RANKING_GASTOS_QUERY = """
-SELECT
-    d.deputado_id,
-    d.ultimostatus_nome AS deputado,
-    d.siglapartido AS partido,
-    d.siglauf AS uf,
-    COALESCE(ROUND(SUM(dp.vlrliquido), 2), 0) AS total_gasto,
-    MIN(dp.numano) AS ano_minimo,
-    MAX(dp.numano) AS ano_maximo
-FROM Deputados d
-LEFT JOIN Despesas dp
-    ON CAST(d.deputado_id AS INTEGER)
-       = CAST(dp.idecadastro AS INTEGER)
-GROUP BY
-    d.deputado_id,
-    d.ultimostatus_nome,
-    d.siglapartido,
-    d.siglauf
-ORDER BY total_gasto DESC
+SELECT *
+FROM GastosDeputados
+ORDER BY total_gasto DESC;
 """
 
 GASTOS_POR_CATEGORIA_QUERY = """
 SELECT
-    txtdescricao AS categoria,
-    COALESCE(ROUND(SUM(vlrliquido), 2), 0) AS valor_total_gasto,
-    COUNT(*) AS qtd_total,
-    MIN(numano) AS ano_minimo,
-    MAX(numano) AS ano_maximo
-FROM Despesas
-GROUP BY txtdescricao
-ORDER BY valor_total_gasto DESC
+    tipo,
+    ROUND(SUM(valor_total_gasto), 2) AS gasto_total
+FROM GastosDeputadoCategoria
+GROUP BY tipo
+ORDER BY gasto_total DESC;
 """
 
 LISTAR_DEPUTADOS_QUERY = """
