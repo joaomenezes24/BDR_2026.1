@@ -35,7 +35,7 @@ class ProposicoesService:
                     headers = {"Accept": "application/json"}
 
                     #inicio_api = time.time()
-                    resposta = requests.get(uri_camara, headers=headers, timeout=5)
+                    link_documento = None
                     #tempo_api_camara = time.time() - inicio_api
                     #print(f"DEBUG: Resposta da API da Câmara: {resposta.status_code}")
 

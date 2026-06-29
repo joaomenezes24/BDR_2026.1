@@ -9,7 +9,7 @@ export default function Footer() {
 
           <p>
             Plataforma para análise e visualização de dados públicos da
-            Câmara dos Deputados.
+            Câmara dos Deputados do período janeiro de 2023 a junho de 2026.
           </p>
         </div>
 

@@ -10,7 +10,6 @@
 
 .dashboard h1 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -238,62 +237,70 @@
 /* =============================================
    TABLES SECTION
 ============================================= */
-.table-section {
+.tableSection {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.table-container {
+.tableContainer {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
   box-shadow: var(--shadow-md);
   transition: var(--transition);
+
+  max-height: 400px;      /* ajuste conforme necessário */
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
-.table-container:hover {
+.tableContainer:hover {
   box-shadow: var(--shadow-lg);
 }
 
-.table-container table {
+.tableContainer table {
   width: 100%;
   border-collapse: collapse;
-  box-shadow: none;
-  border: none;
+  border-spacing: 0;
 }
 
-.table-container th {
-  background: linear-gradient(135deg, var(--primary-dimmer) 0%, #f3f4f6 100%);
+.tableContainer thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  background: linear-gradient(
+    135deg,
+    var(--primary-dimmer) 0%,
+    #f3f4f6 100%
+  );
+
   padding: 1.25rem 1rem;
   text-align: left;
   font-weight: 600;
   color: var(--primary);
-  border: none;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-.table-container td {
-  padding: 1rem;
+.tableContainer td {
   border-bottom: 1px solid var(--border);
   color: var(--text-secondary);
 }
 
-.table-container tbody tr {
+.tableContainer tbody tr {
   transition: var(--transition);
 }
 
-.table-container tbody tr:hover {
+.tableContainer tbody tr:hover {
   background: var(--primary-dimmer);
 }
 
-.table-container tbody tr:last-child td {
+.tableContainer tbody tr:last-child td {
   border-bottom: none;
 }
-
 /* =============================================
    LAYOUT GRID
 ============================================= */

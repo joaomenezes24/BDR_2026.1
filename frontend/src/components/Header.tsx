@@ -7,7 +7,7 @@ export default function Header({ isExpanded, onToggle }: HeaderProps) {
   return (
     <header className={`header ${isExpanded ? "expanded" : "compact"}`}>
       <button className="header-toggle" onClick={onToggle}>
-        {isExpanded ? "▲" : "▼"}
+        {isExpanded ? "✖" : "⤡"}
       </button>
 
       <div className="header-content">
@@ -18,17 +18,17 @@ export default function Header({ isExpanded, onToggle }: HeaderProps) {
         />
 
         <div className="header-text">
-          <h2>Proeza: de Olho na Câmara</h2>
+          <h1>Proeza: de Olho na Câmara</h1>
+          <h2> Uma solução em Banco de Dados Relacionais</h2>
 
           {isExpanded && (
             <>
-              <h2>Uma solução em Banco de Dados Relacionais</h2>
-
               <p>
                 Plataforma dedicada à análise de dados públicos da Câmara dos
-                Deputados, oferecendo indicadores, rankings e visualizações
-                interativas para promover transparência e facilitar a exploração
-                das informações legislativas.
+                Deputados no período de janeiro de 2023 a junho de 2026,
+                oferecendo indicadores, rankings e visualizações interativas para
+                promover transparência e facilitar a exploração das informações
+                legislativas.
               </p>
             </>
           )}
