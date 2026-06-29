@@ -12,6 +12,7 @@ class GastosService:
         conn = get_connection()
 
         try:
+
             cursor = conn.cursor()
 
             cursor.execute(RANKING_GASTOS_QUERY)

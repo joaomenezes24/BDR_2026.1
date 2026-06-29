@@ -16,12 +16,12 @@ import { analyticsService } from "@/src/services/analyticsService";
 function CustomTooltip({ active, payload, label }: any) {
   if (!active || !payload || !payload.length) return null;
 
-  const { media_presencas, total_deputados } = payload[0].payload;
+  const { media_presenca, total_deputados } = payload[0].payload;
 
   return (
     <div className={styles.tooltip}>
       <p><strong>{label}</strong></p>
-      <p>Média de presenças: {media_presencas}</p>
+      <p>Média de presenças: {media_presenca}</p>
       <p>Total de deputados: {total_deputados}</p>
     </div>
   );
@@ -46,7 +46,7 @@ export default function EscolaridadeEventosChart() {
             <XAxis dataKey="escolaridade" />
             <YAxis />
             <Tooltip content={<CustomTooltip />} />
-            <Bar dataKey="media_presencas" fill="#4f81bd" />
+            <Bar dataKey="media_presenca" fill="#4f81bd" />
           </BarChart>
         </ResponsiveContainer>
       </div>

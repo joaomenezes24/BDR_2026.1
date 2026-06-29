@@ -121,7 +121,7 @@ class AnalyticsService:
                 {
                     "escolaridade": row["escolaridade"],
                     "fidelidade_media": row["fidelidade_media"],
-                    "quantidade_deputados": row["quantidade_deputados"]
+                    "total_deputados": row["total_deputados"]
                 }
                 for row in rows
             ]
@@ -215,7 +215,7 @@ class AnalyticsService:
                 {
                     "escolaridade": row["escolaridade"],
                     "total_deputados": row["total_deputados"],
-                    "media_presencas": row["media_presencas"]
+                    "media_presenca": row["media_presenca"]
                 }
                 for row in rows
             ]

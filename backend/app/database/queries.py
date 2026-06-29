@@ -32,9 +32,23 @@ SELECT
     COUNT(*) AS qtd_total
 FROM Deputados
 GROUP BY escolaridade
-ORDER BY qtd_total DESC
+ORDER BY
+    CASE COALESCE(escolaridade, 'Não Informado')
+        WHEN 'Primário Incompleto' THEN 1
+        WHEN 'Ensino Fundamental' THEN 2
+        WHEN 'Ensino Médio Incompleto' THEN 3
+        WHEN 'Ensino Médio' THEN 4
+        WHEN 'Superior Incompleto' THEN 5
+        WHEN 'Superior' THEN 6
+        WHEN 'Pós-Graduação' THEN 7
+        WHEN 'Mestrado Incompleto' THEN 8
+        WHEN 'Mestrado' THEN 9
+        WHEN 'Doutorado Incompleto' THEN 10
+        WHEN 'Doutorado' THEN 11
+        WHEN 'Não Informado' THEN 12
+        ELSE 13
+    END;
 """
-
 ESCOLARIDADE_GASTOS_QUERY = """
 SELECT
     escolaridade,
@@ -107,12 +121,12 @@ GROUP BY d.deputado_id
 DEPUTADO_DESPESAS_QUERY = """
 SELECT
     txtdescricao AS categoria,
-    ROUND(SUM(vlrliquido),2) AS valor_total,
+    ROUND(SUM(vlrliquido), 2) AS valor_total,
     COUNT(*) AS quantidade
 FROM Despesas
-WHERE CAST(idecadastro AS INTEGER) = ?
+WHERE idecadastro = ?
 GROUP BY txtdescricao
-ORDER BY valor_total DESC
+ORDER BY valor_total DESC;
 """
 
 PROPOSICOES_DEPUTADOS_TEMAS_QUERY = """
@@ -164,14 +178,29 @@ ORDER BY
 
 ESCOLARIDADE_FIDELIDADE_QUERY = """
 SELECT
-    d.escolaridade,
-    COUNT(DISTINCT d.deputado_id) AS quantidade_deputados,
+    COALESCE(d.escolaridade, 'Não Informado') AS escolaridade,
+    COUNT(DISTINCT d.deputado_id) AS total_deputados,
     ROUND(AVG(v.alinhado) * 100, 2) AS fidelidade_media
 FROM Deputados d
 LEFT JOIN VotacoesVotos v
     ON d.deputado_id = v.deputado_id
 GROUP BY d.escolaridade
-ORDER BY fidelidade_media DESC;
+ORDER BY
+    CASE COALESCE(d.escolaridade, 'Não Informado')
+        WHEN 'Primário Incompleto' THEN 1
+        WHEN 'Ensino Fundamental' THEN 2
+        WHEN 'Ensino Médio Incompleto' THEN 3
+        WHEN 'Ensino Médio' THEN 4
+        WHEN 'Superior Incompleto' THEN 5
+        WHEN 'Superior' THEN 6
+        WHEN 'Pós-Graduação' THEN 7
+        WHEN 'Mestrado Incompleto' THEN 8
+        WHEN 'Mestrado' THEN 9
+        WHEN 'Doutorado Incompleto' THEN 10
+        WHEN 'Doutorado' THEN 11
+        WHEN 'Não Informado' THEN 12
+        ELSE 13
+    END;
 """
 
 DEPUTADO_ALINHAMENTO_QUERY = """
@@ -193,36 +222,67 @@ GROUP BY deputado_nome;
 
 ESCOLARIDADE_PROPOSICOES_QUERY = """
 SELECT
-    d.escolaridade,
-    COUNT(DISTINCT d.deputado_id)          AS total_deputados,
-    COUNT(pa.idproposicao)        AS total_proposicoes,
+    COALESCE(d.escolaridade, 'Não Informado') AS escolaridade,
+    COUNT(DISTINCT d.deputado_id) AS total_deputados,
+    COUNT(pa.idproposicao) AS total_proposicoes,
     ROUND(
         COUNT(pa.idproposicao) * 1.0 / COUNT(DISTINCT d.deputado_id),
         2
-    )                             AS media_proposicoes
-  FROM deputados d
-  LEFT JOIN  ProposicoesAutores pa ON d.deputado_id = pa.iddeputadoautor
-  GROUP BY d.escolaridade
-  ORDER BY media_proposicoes DESC;
+    ) AS media_proposicoes
+FROM Deputados d
+LEFT JOIN ProposicoesAutores pa
+    ON d.deputado_id = pa.iddeputadoautor
+GROUP BY d.escolaridade
+ORDER BY
+    CASE COALESCE(d.escolaridade, 'Não Informado')
+        WHEN 'Primário Incompleto' THEN 1
+        WHEN 'Ensino Fundamental' THEN 2
+        WHEN 'Ensino Médio Incompleto' THEN 3
+        WHEN 'Ensino Médio' THEN 4
+        WHEN 'Superior Incompleto' THEN 5
+        WHEN 'Superior' THEN 6
+        WHEN 'Pós-Graduação' THEN 7
+        WHEN 'Mestrado Incompleto' THEN 8
+        WHEN 'Mestrado' THEN 9
+        WHEN 'Doutorado Incompleto' THEN 10
+        WHEN 'Doutorado' THEN 11
+        WHEN 'Não Informado' THEN 12
+        ELSE 13
+    END;
 """
 
 ESCOLARIDADE_EVENTOS_QUERY = """
 SELECT
-    d.escolaridade,
-    COUNT(DISTINCT p.idevento) AS total_presencas,
+    COALESCE(d.escolaridade, 'Não Informado') AS escolaridade,
+    COUNT(DISTINCT p.idevento) AS total_presenca,
     COUNT(DISTINCT d.deputado_id) AS total_deputados,
     ROUND(
         CAST(COUNT(DISTINCT p.idevento) AS REAL)
         / COUNT(DISTINCT d.deputado_id),
         2
-    ) AS media_presencas
+    ) AS media_presenca
 FROM Deputados d
 LEFT JOIN EventosPresencaDeputados p
     ON d.deputado_id = p.iddeputado
-WHERE d.escolaridade IS NOT NULL
 GROUP BY d.escolaridade
-ORDER BY media_presencas DESC;
+ORDER BY
+    CASE COALESCE(d.escolaridade, 'Não Informado')
+        WHEN 'Primário Incompleto' THEN 1
+        WHEN 'Ensino Fundamental' THEN 2
+        WHEN 'Ensino Médio Incompleto' THEN 3
+        WHEN 'Ensino Médio' THEN 4
+        WHEN 'Superior Incompleto' THEN 5
+        WHEN 'Superior' THEN 6
+        WHEN 'Pós-Graduação' THEN 7
+        WHEN 'Mestrado Incompleto' THEN 8
+        WHEN 'Mestrado' THEN 9
+        WHEN 'Doutorado Incompleto' THEN 10
+        WHEN 'Doutorado' THEN 11
+        WHEN 'Não Informado' THEN 12
+        ELSE 13
+    END;
 """
+
 #proposicoes por tema
 PROPOSICOES_TEMAS_QUERY = """
 SELECT 
@@ -263,4 +323,3 @@ WHERE
     vp.proposicao_id = ?
 ORDER BY 
     vv.deputado_nome ASC;"""
-

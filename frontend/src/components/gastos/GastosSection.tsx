@@ -67,19 +67,23 @@ export default function Gastos() {
 
   // Seleção de Parlamentar
   async function selecionarDeputado(deputado: any) {
-    setDeputadoSelecionado(deputado.deputado);
-    setCarregandoDespesas(true);
-    setAbaAtiva("despesas");
+  console.log("Deputado clicado:", deputado);
+  console.log("ID enviado:", deputado.deputado_id);
 
-    try {
-      const dados = await gastosService.getDespesasDeputado(deputado.deputado_id);
-      setDespesas(dados);
-    } catch (error) {
-      console.error("Erro ao buscar despesas do deputado:", error);
-    } finally {
-      setCarregandoDespesas(false);
-    }
+  setDeputadoSelecionado(deputado.deputado);
+  setCarregandoDespesas(true);
+  setAbaAtiva("despesas");
+
+  try {
+    const dados = await gastosService.getDespesasDeputado(deputado.deputado_id);
+    console.log("Despesas retornadas:", dados);
+    setDespesas(dados);
+  } catch (error) {
+    console.error(error);
+  } finally {
+    setCarregandoDespesas(false);
   }
+}
 
   // --- LÓGICA DE FILTRAGEM E ORDENAÇÃO ---
   const partidosUnicos = Array.from(new Set(ranking.map((d) => d.partido))).sort();
