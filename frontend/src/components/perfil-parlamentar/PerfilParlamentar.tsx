@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import './PerfilParlamentar.css';
 import GraficoCamaraInterativo from './GraficoCamaraInterativo';
+import styles from "@/src/components/dashboard/dashboard.module.css";
+import HelpTooltip from "../HelpToolTip";
 
 export default function PerfilParlamentar() {
   const [criterio, setCriterio] = useState('siglaPartido');
@@ -26,11 +28,17 @@ export default function PerfilParlamentar() {
 
   return (
     <div className="perfil-container">
+      <div className={styles.sectionHeader}>
+          <h2>Raio-X do Plenário</h2>
+          <HelpTooltip
+            pergunta="9. Qual o viés do deputado? direita/ esquerda/ centro"
+            descricao="Essa seção é dedicada a demonstrar demograficamente a distribuição da câmara
+            por (4)escolaridade, sexo, partido e (9.1)espectro político.  "
+          />
+      </div>
       <header className="perfil-header">
-        <h1>Raio-X do Plenário</h1>
         <p>Análise demográfica e política dos deputados em exercício</p>
       </header>
-
       {/* Menu de Filtros */}
       <nav className="filtro-group">
         {filtros.map(f => (

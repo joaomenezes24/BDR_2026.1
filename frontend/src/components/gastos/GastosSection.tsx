@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { gastosService } from "@/src/services/gastosServices";
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import HelpTooltip from "../HelpToolTip";
+import styles from "@/src/components/dashboard/dashboard.module.css";
 
 // Tipos
 type Aba = "ranking" | "despesas";
@@ -194,8 +196,13 @@ export default function Gastos() {
       {/* --- ABA: RANKING --- */}
       {abaAtiva === "ranking" && (
         <div>
-          <h2>Ranking de Gastos</h2>
-          
+          <div className={styles.sectionHeader}>
+            <h2>Ranking de Gastos</h2>
+            <HelpTooltip
+              pergunta="1. Deputados ordenados por gasto"
+              descricao="A posição do deputado se dá pelo total gasto. É possível filtrar por partido, UF e buscar por nome."
+            />
+          </div>
           {/* ÁREA DE FILTROS */}
           {!carregandoRanking && (
             <div style={{ marginBottom: "1.5rem", padding: "1rem", backgroundColor: "#f5f5f5", borderRadius: "8px" }}>
@@ -307,7 +314,13 @@ export default function Gastos() {
             <p>Selecione um deputado no ranking para ver com o que ele gasta.</p>
           ) : (
             <div>
-              <h2>Despesas de {deputadoSelecionado}</h2>
+              <div className={styles.sectionHeader}>
+                <h2>Despesas de {deputadoSelecionado}</h2>
+                <HelpTooltip
+                  pergunta="13. Com o que o deputado gasta"
+                  descricao="Esta tabela mostra as despesas do deputado selecionado, agrupadas por categoria. O gráfico ao lado apresenta a distribuição das maiores categorias de gasto."
+                />
+              </div>
 
               {carregandoDespesas ? (
                 <p>Buscando despesas...</p>

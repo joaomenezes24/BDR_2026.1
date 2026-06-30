@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import styles from "./dashboard.module.css";
 import { analyticsService } from "@/src/services/analyticsService";
+import HelpTooltip from "../HelpToolTip";
 
 export default function EscolaridadeTable() {
   const [dados, setDados] = useState<any[]>([]);
@@ -15,6 +16,10 @@ export default function EscolaridadeTable() {
     <div className={styles.tableSection}>
       <div className={styles.sectionHeader}>
         <h2>Escolaridade dos Deputados</h2>
+        <HelpTooltip
+          pergunta="4. Agrupar deputados por escolaridade"
+          descricao="Esta tabela apresenta a distribuição geral dos deputados pelo nível de escolaridade."
+        />
       </div>
 
       <div className={styles.tableContainer}>

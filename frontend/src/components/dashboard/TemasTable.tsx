@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import styles from "./dashboard.module.css";
 import { analyticsService } from "@/src/services/analyticsService";
+import HelpTooltip from "../HelpToolTip";
 
 export default function TemasTable() {
   const [temas, setTemas] = useState<any[]>([]);
@@ -15,6 +16,10 @@ export default function TemasTable() {
     <div className={styles.tableSection}>
       <div className={styles.sectionHeader}>
         <h2>Temas Principais</h2>
+        <HelpTooltip
+            pergunta="3. Como os deputados votam em um tema/eixo específico"
+            descricao="Esta tabela foi construida com um agrupamento geral de temas."
+        />
       </div>
 
       <div className={styles.tableContainer}>

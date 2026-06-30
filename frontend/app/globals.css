@@ -596,3 +596,63 @@ a:hover { color: var(--primary-light); text-decoration: underline; }
 .deputado-row:hover {
   background: #f3f4f6;
 }
+
+.help-tooltip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.help-button {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 30%;
+  border: none;
+
+  background: var(--primary);
+  color: white;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+
+  cursor: pointer;
+  flex-shrink: 0;
+
+  transition: background 0.2s ease;
+}
+
+.help-button:hover {
+  background: var(--primary-light);
+}
+
+/* Popup fixo na viewport */
+.help-popup {
+  position: fixed; /* fixo ao invés de absolute */
+
+  width: 320px;
+
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.help-popup h4 {
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+}
+
+.help-popup p {
+  margin: 4px 0 12px 0;
+  font-size: 0.875rem;
+  color: #555;
+}

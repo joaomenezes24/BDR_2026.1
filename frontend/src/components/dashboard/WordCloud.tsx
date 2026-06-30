@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { TagCloud } from "react-tagcloud";
+import HelpTooltip from "../HelpToolTip";
+import styles from "./dashboard.module.css";
 
 import { analyticsService } from "@/src/services/analyticsService";
 
@@ -79,8 +81,13 @@ export default function WordCloud() {
   return (
 
     <>
-
-      <h2>Nuvem Geral de Palavras</h2>
+      <div className={styles.sectionHeader}>
+        <h2>Nuvem Geral de Palavras</h2>
+        <HelpTooltip
+            pergunta="2. Agrupar deputados por eixo de atuação"
+            descricao="Eixo social, econômica, tributária, segurança, etc. A nuvem de palavras apresenta uma concepção geral da ocorrência de temas. Essa é uma resposta geral, na aba deputados essa pergunta foi respondida para cada deputado"
+        />
+      </div>
 
       <style>{`
 

@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { deputadosService } from "@/src/services/deputadosService";
 import { DeputadoResumo, DeputadoDetalhes } from "@/src/types/deputados";
 import WordCloudTemas from "@/src/components/deputados/WordcloudProposicoesTemas";
+import styles from "@/src/components/dashboard/dashboard.module.css";
+import HelpTooltip from "../HelpToolTip"
 
 // Paleta de cores (Aproveitada para colorir as palavras da nuvem)
 const CORES_GRAFICO = [
@@ -95,9 +97,14 @@ export default function Deputados() {
         display: "flex", 
         flexDirection: "column"
       }}>
-        <h1 style={{ borderBottom: "2px solid #eee", paddingBottom: "10px", marginBottom: "15px", color: "#333" }}>
-          Painel de Deputados
-        </h1>
+        <div className={styles.sectionHeader}>
+          <h2> Painel de Deputados </h2>
+          <HelpTooltip
+            pergunta="Como explorar os dados dos deputados?"
+            descricao="Essa seção permite explorar dados específicos de um deputado, dando enfoque aos
+            (1)gastos e (4)escolaridade, além de uma (2)nuvem de palavras explicitando o eixo de atuação."
+          />
+        </div> 
 
         <div style={{ display: "flex", gap: "10px", marginBottom: "20px", flexWrap: "wrap" }}>
           <input
