@@ -5,7 +5,6 @@ import ProposicaoDetalhes from './ProposicaoDetalhes';
 import ResumoVotacao from './ResumoVotacao'; 
 import GraficoCamaraInterativo from '@/src/components/perfil-parlamentar/GraficoCamaraInterativo'; 
 
-
 import { ProposicoesService } from '@/src/services/proposicoesServices';
 import { analyticsService } from '@/src/services/analyticsService'; 
 import { ProposicaoResponse, ProposicaoVotosResponse} from '@/src/types/proposicoes'; 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';  
 import { TagCloud } from 'react-tagcloud';
 
 interface TemaData {
