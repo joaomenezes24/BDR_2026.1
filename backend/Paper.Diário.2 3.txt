@@ -1,0 +1,30 @@
+Perguntas
+Presença: Contar apenas as pbrigatórias!
+Scopo N, P, E
+
+1. Deputados ordenados por gasto Z --> A
+2. Eixo social, econômica, tributária, segurança, etc. Agrupar deputados por eixo de atuação (nuvem de palavras)
+3. Como umd eupato votou em um tema/eixo específico
+4. Agrupar deputados por escolaridade
+5. Ordenar fornecedores por contato
+6. Correlacionar escolaridade com
+	a. gastos;
+	b. fidelidade partidária;
+	c. Número de proposições;
+	d. Presença em eventos;
+	e. Presença no plenário;
+7. Calcular e ordenar o deputado por custo x benefício. Custo = gasto; Benefício: um score baseado nas propostas e presenças.
+8.Ordenar por influência: calcular o percentual de propostas aprovadas pelo deputado. O percentual é em relação ao total de propostas aprovadas.
+9. Qual o viés do deputado? direita/ esquerda/ centro
+9.1. Classificar os partidos
+9.2. Correlacionar partido x proposta 
+9.3. Observar voto de cada deputado na proposta
+10. Ordenar os partidos conforme alinhamento interno
+(qual partido tem maior capacidade de convencer seu deputado)
+11. Ordenar partidos por
+	a. Frequência
+	b. Proposições
+	c. Gastos
+	d. Nuvem de palavras
+12. Correlacionar deputado com fornecedor
+13. Com o que o deputado mais gasta?

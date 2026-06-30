@@ -25,19 +25,34 @@ export default function ProposicoesTab() {
 
   // Efeito 1: Busca a lista de temas do analyticsService
   useEffect(() => {
-    const carregarTemas = async () => {
+    if (!temaSelecionado) return;
+
+    const carregarProposicao = async () => {
+      console.log("1 - Iniciando busca");
+      setLoading(true);
+
       try {
-        const data = await analyticsService.getTemas();
-        setTemasDisponiveis(data);
-        if (data.length > 0) {
-          setTemaSelecionado(data[0].tema); 
-        }
+        console.log("2 - Antes da API");
+
+        const data = await ProposicoesService.getProposicoesPorTema(
+          temaSelecionado,
+          offset
+        );
+
+        console.log("3 - API respondeu", data);
+
+        setProposicao(data[0] || null);
       } catch (error) {
-        console.error("Erro ao carregar os temas:", error);
+        console.error("ERRO:", error);
+        setProposicao(null);
+      } finally {
+        console.log("4 - Finalizando loading");
+        setLoading(false);
       }
     };
-    carregarTemas();
-  }, []);
+
+    carregarProposicao();
+  }, [temaSelecionado, offset]);
 
   // Efeito 2: Carrega a base fixa dos 513 deputados (apenas uma vez na montagem)
   useEffect(() => {

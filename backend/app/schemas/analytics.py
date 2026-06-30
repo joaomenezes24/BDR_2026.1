@@ -33,6 +33,7 @@ class PartidoResponse(BaseModel):
 
 class EscolaridadeFidelidadeResponse(BaseModel):
     escolaridade: str | None = None
+    total_deputados: int
     fidelidade_media: float | None = None
 
 class EscolaridadeProposicoesResponse(BaseModel):

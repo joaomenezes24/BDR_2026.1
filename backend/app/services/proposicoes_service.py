@@ -11,39 +11,40 @@ import time
 class ProposicoesService:  
     @staticmethod
     def get_proposicoes_por_tema(tema: str, limit: int, offset: int) -> list[ProposicaoResponse]:
+        print("1 - Entrou no service")
         #print("DEBUG: Chamando get_proposicoes_por_tema com tema:", tema, "limit:", limit, "offset:", offset)
         conn = get_connection()
-
+        print("2 - Conexão aberta")
         #inicio = time.time()
         try:
             cursor = conn.cursor()
+            print("3 - Cursor criado")
             #print("DEBUG: inciando query...")
             cursor.execute(PROPOSICOES_TEMAS_QUERY, (tema, limit, offset))
+            print("4 - Query executada")
             rows = cursor.fetchall()
+            print("5 - Fetchall:", len(rows))
             #tempo_banco = time.time() - inicio
             #print(f"DEBUG: Query executada. Número de resultados: {len(rows)}")
 
             resultados = []
-            
+
             for row in rows:
-                uri_camara = row["uri"] 
+                uri_camara = row["uri"]
                 link_documento = None
-                
-                # Faz o fetch na API da Câmara buscando o JSON
+
+                # Tenta obter informações adicionais da API da Câmara (se disponível)
                 try:
-                    #print(f"DEBUG: Buscando link do inteiro teor na API da Câmara")
                     headers = {"Accept": "application/json"}
-
-                    #inicio_api = time.time()
-                    link_documento = None
-                    #tempo_api_camara = time.time() - inicio_api
-                    #print(f"DEBUG: Resposta da API da Câmara: {resposta.status_code}")
-
-                    if resposta.status_code == 200:
-                        dados_json = resposta.json()
-                        # Extrai a urlInteiroTeor navegando no JSON retornado
-                        link_documento = dados_json.get("dados", {}).get("urlInteiroTeor")
-                        #print(f"DEBUG: Link do inteiro teor encontrado: {link_documento}")
+                    resp = requests.get(uri_camara, headers=headers, timeout=5)
+                    if resp.ok:
+                        # Se houver JSON e um campo com link, tente extrair; caso contrário deixa None
+                        try:
+                            data = resp.json()
+                            # caminho do link pode variar; exemplo genérico abaixo
+                            link_documento = data.get("inteiroTeor") or data.get("link")
+                        except Exception:
+                            link_documento = None
                 except Exception as e:
                     print(f"Erro ao buscar link do inteiro teor na API da Câmara para {uri_camara}: {e}")
 
@@ -54,11 +55,9 @@ class ProposicoesService:
                         numero=row["numero"],
                         ano=row["ano"],
                         ementa=row["ementa"],
-                        link=link_documento, # Injeta o link na response
+                        link=link_documento,
                         proposicao_id=row["proposicao_id"],
                         proposicao_uri=uri_camara,
-                        # tempo_banco=tempo_banco,
-                        # tempo_api_camara=tempo_api_camara
                     )
                 )
 
